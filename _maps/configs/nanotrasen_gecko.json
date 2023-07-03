@@ -31,6 +31,7 @@
 			"outfit": "/datum/outfit/job/miner/classic",
 			"slots": 2
 		},
+		"Clown": 1,
 		"Deckhand": {
 			"outfit": "/datum/outfit/job/assistant",
 			"slots": 4
