@@ -26,6 +26,7 @@
 			"outfit": "/datum/outfit/job/brig_phys",
 			"slots": 1
 		},
+		"Clown": 1,
 		"Patient": {
 			"outfit": "/datum/outfit/job/prisoner",
 			"slots": 2

@@ -24,6 +24,7 @@
 			"outfit": "/datum/outfit/job/engineer/nt",
 			"slots": 1
 		},
+		"Clown": 1,
 		"Assistant": 3
 	},
 	"enabled": true

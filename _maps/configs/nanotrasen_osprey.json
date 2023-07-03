@@ -40,6 +40,7 @@
 		},
 		"Cook": 1,
 		"Janitor": 1,
+		"Clown": 1,
 		"Assistant": 3
 	},
 	"enabled": true

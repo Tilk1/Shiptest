@@ -46,6 +46,7 @@
 			"outfit": "/datum/outfit/job/scientist/lp",
 			"slots": 2
 		},
+		"Clown": 1,
 		"Miner": {
 			"outfit": "/datum/outfit/job/miner/lp",
 			"slots": 2
