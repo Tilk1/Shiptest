@@ -1005,7 +1005,7 @@
 /////////////////////////Nanites/////////////////////////
 
 //Disabled pending nanite rework --Apogee-dev
-/*
+
 /datum/techweb_node/nanite_base
 	id = "nanite_base"
 	display_name = "Basic Nanite Programming"
@@ -1100,7 +1100,7 @@
 	export_price = 2500
 	hidden = TRUE
 	experimental = TRUE
-*/
+
 ////////////////////////Alien technology////////////////////////
 /datum/techweb_node/alientech //AYYYYYYYYLMAOO tech
 	id = "alientech"
