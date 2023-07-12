@@ -10,8 +10,8 @@
 	mob_biotypes = MOB_ORGANIC|MOB_BUG
 	melee_damage_lower = 30
 	melee_damage_upper = 30
-	maxHealth = 300
-	health = 300
+	maxHealth = 180
+	health = 180
 	speed = 1
 	ranged = 1
 	pixel_x = -16
@@ -25,14 +25,13 @@
 	projectiletype = /obj/projectile/mega_arachnid
 	projectilesound = 'sound/weapons/pierce.ogg'
 	alpha = 50
-
 	footstep_type = FOOTSTEP_MOB_CLAW
 
 /mob/living/simple_animal/hostile/jungle/mega_arachnid/Life()
 	..()
 	if(target && ranged_cooldown > world.time && iscarbon(target))
 		var/mob/living/carbon/C = target
-		if(!C.legcuffed && C.health < 50)
+		if(!C.legcuffed && C.health > 50)
 			retreat_distance = 9
 			minimum_distance = 9
 			alpha = 125
@@ -59,6 +58,7 @@
 /obj/projectile/mega_arachnid/on_hit(atom/target, blocked = FALSE)
 	if(iscarbon(target) && blocked < 100)
 		var/obj/item/restraints/legcuffs/beartrap/mega_arachnid/B = new /obj/item/restraints/legcuffs/beartrap/mega_arachnid(get_turf(target))
+		B.armed = TRUE
 		B.on_entered(src ,target)
 	..()
 
@@ -69,3 +69,4 @@
 	flags_1 = NONE
 	icon_state = "tentacle_end"
 	icon = 'icons/obj/projectiles.dmi'
+	slowdown = 4.5
