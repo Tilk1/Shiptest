@@ -11,8 +11,8 @@
 	icon_living = "leaper"
 	icon_dead = "leaper_dead"
 	mob_biotypes = MOB_ORGANIC|MOB_BEAST
-	maxHealth = 300
-	health = 300
+	maxHealth = 425
+	health = 425
 	ranged = TRUE
 	projectiletype = /obj/projectile/leaper
 	projectilesound = 'sound/weapons/pierce.ogg'
@@ -222,7 +222,7 @@
 	playsound(src.loc, 'sound/effects/meteorimpact.ogg', 100, TRUE)
 	if(target && AIStatus == AI_ON && projectile_ready && !ckey)
 		face_atom(target)
-		addtimer(CALLBACK(src, .proc/OpenFire, target), 5)
+		addtimer(CALLBACK(src, .proc/OpenFire, target), 15)
 
 /mob/living/simple_animal/hostile/jungle/leaper/proc/BellyFlop()
 	var/turf/new_turf = get_turf(target)

@@ -96,10 +96,13 @@
 		/obj/structure/flora/ash/garden = 1,
 	)
 	flora_spawn_chance = 90
-	mob_spawn_chance = 0.3
+	mob_spawn_chance = 10
 	mob_spawn_list = list(
+		/mob/living/simple_animal/hostile/jungle/leaper = 1,
+		/mob/living/simple_animal/hostile/jungle/seedling = 2,
+		/mob/living/simple_animal/hostile/jungle/mega_arachnid = 5,
 		/mob/living/carbon/monkey = 10,
-		/mob/living/simple_animal/hostile/retaliate/chicken = 10,
+		/mob/living/simple_animal/hostile/retaliate/chicken = 15,
 		/obj/effect/spawner/lootdrop/chicken/jungle/flock = 1
 		)
 
@@ -118,12 +121,14 @@
 		/obj/structure/spacevine/dense = 20,
 		/obj/structure/flora/ash/garden = 1,
 	)
-	mob_spawn_chance = 0.6
+	mob_spawn_chance = 100
 	mob_spawn_list = list(
-		/mob/living/simple_animal/hostile/gorilla = 1,
-		/mob/living/carbon/monkey = 6,
-		/mob/living/simple_animal/hostile/retaliate/chicken = 4,
-		/obj/effect/spawner/lootdrop/chicken/jungle/flock = 1
+		/mob/living/simple_animal/hostile/gorilla = 7,
+		/mob/living/simple_animal/hostile/jungle/leaper = 1,
+		/mob/living/simple_animal/hostile/jungle/seedling = 1,
+		/mob/living/simple_animal/hostile/jungle/mega_arachnid = 12,
+		/mob/living/carbon/monkey = 2,
+		/mob/living/simple_animal/hostile/retaliate/chicken = 2,
 		)
 
 /datum/biome/jungle/plains
@@ -144,8 +149,11 @@
 		/obj/structure/spacevine = 5,
 	)
 	flora_spawn_chance = 20
-	mob_spawn_chance = 0.05
-	mob_spawn_list = list(/mob/living/simple_animal/hostile/poison/giant_spider/tarantula = 1)
+	mob_spawn_chance = 0.5
+	mob_spawn_list = list(
+	/mob/living/simple_animal/hostile/poison/giant_spider/tarantula = 20,
+	/mob/living/simple_animal/hostile/jungle/leaper = 2
+	)
 
 /datum/biome/jungle_wasteland
 	open_turf_types = list(/turf/open/floor/plating/dirt/jungle/wasteland/lit = 1)
@@ -153,7 +161,10 @@
 /datum/biome/jungle/water
 	open_turf_types = list(/turf/open/water/jungle/lit = 1)
 	mob_spawn_chance = 1
-	mob_spawn_list = list(/mob/living/simple_animal/hostile/carp = 1)
+	mob_spawn_list = list(
+	/mob/living/simple_animal/hostile/carp = 20,
+	/mob/living/simple_animal/hostile/jungle/leaper = 2
+	)
 	flora_spawn_chance = 1
 	flora_spawn_list = list(/obj/structure/flora/rock = 1)
 
@@ -228,9 +239,10 @@
 	)
 	mob_spawn_chance = 1
 	mob_spawn_list = list(
-		/mob/living/simple_animal/hostile/poison/bees/toxin = 1,
-		/mob/living/simple_animal/hostile/mushroom = 1,
-		/mob/living/simple_animal/pet/dog/corgi/capybara
+		/mob/living/simple_animal/hostile/poison/bees/toxin = 6,
+		/mob/living/simple_animal/hostile/mushroom = 6,
+		/mob/living/simple_animal/pet/dog/corgi/capybara = 5,
+		/mob/living/simple_animal/hostile/jungle/mega_arachnid = 1
 	)
 
 /datum/biome/cave/lush/bright
