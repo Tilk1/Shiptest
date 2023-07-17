@@ -77,11 +77,11 @@ ENABLE_LOCALHOST_RANK
 ## The "base" minimum number of minutes as living to spawn a ship from the join menu.
 ## Ships may have differing true values depending on the template's coefficient, defined in JSON.
 ## The ship spawn playtime restriction is the ONLY restriction that applies for ship spawning.
-SHIP_SPAWN_BASE_EXP_MIN 0
+SHIP_SPAWN_BASE_EXP_MIN 600
 ## The "base" minimum number of minutes as living to spawn into an officer job.
 ## Ships may have differing true values depending on the template's coefficient, defined in JSON.
 ## Once the ship has been spawned, this restriction will apply for any officer job being joined on a ship.
-OFFICER_JOIN_BASE_EXP_MIN 0
+OFFICER_JOIN_BASE_EXP_MIN 300
 
 ## log OOC channel
 LOG_OOC
