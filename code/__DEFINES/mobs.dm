@@ -98,6 +98,7 @@
 #define SPECIES_SNAIL "snail"
 #define SPECIES_RACHNID "rachnid"
 #define SPECIES_KEPORI "kepori"
+#define SPECIES_DWARF "dwarf"
 #define SPECIES_VAMPIRE "vampire"
 #define SPECIES_VOX "vox"
 #define SPECIES_ZOMBIE "zombie"
