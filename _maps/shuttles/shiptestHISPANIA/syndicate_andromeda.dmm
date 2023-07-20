@@ -25,6 +25,7 @@
 "cq" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 5},/obj/structure/catwalk/over/plated_catwalk/dark,/turf/open/floor/plating,/area/ship/engineering)
 "cu" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/mineral/plastitanium/red,/area/ship/hallway/central)
 "cv" = (/obj/machinery/atmospherics/components/binary/pump{dir = 8; name = "engine fuel pump"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{dir = 5},/obj/machinery/light/directional/east,/obj/machinery/button/door{dir = 4; id = "andromeda_engine_vent"; name = "External Vent Control"; pixel_x = -21; pixel_y = 10},/turf/open/floor/engine,/area/ship/engineering/engine)
+"cx" = (/obj/structure/cable{icon_state = "1-8"},/obj/structure/catwalk/over/plated_catwalk/dark,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 1},/turf/open/floor/plating,/area/ship/engineering)
 "cy" = (/obj/structure/cable{icon_state = "2-4"},/turf/open/floor/pod,/area/ship/bridge)
 "cA" = (/obj/machinery/camera/autoname{dir = 10},/turf/open/floor/holofloor/wood,/area/ship/bridge)
 "cE" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 5},/obj/structure/rack,/obj/item/ammo_box/magazine/m10mm,/obj/item/ammo_box/magazine/m10mm,/obj/item/storage/toolbox/ammo/c10mm,/obj/item/ammo_box/magazine/smgm45,/obj/item/ammo_box/magazine/smgm45,/turf/open/floor/mineral/plastitanium/red,/area/ship/security/armory)
@@ -57,6 +58,7 @@
 "fk" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 6},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 6},/obj/machinery/airalarm/directional/west,/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "2-4"},/obj/effect/turf_decal/industrial/warning{dir = 8},/turf/open/floor/mineral/plastitanium/red,/area/ship/hallway/central)
 "fs" = (/obj/machinery/advanced_airlock_controller/mix_chamber{pixel_y = 26},/obj/structure/cable{icon_state = "0-2"},/obj/effect/turf_decal/industrial/warning{dir = 5},/turf/open/floor/mineral/plastitanium/red,/area/ship/hallway/central)
 "ft" = (/obj/machinery/door/window/northleft,/turf/open/floor/plasteel/telecomms_floor,/area/ship/engineering/communications)
+"fz" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 8},/obj/structure/cable{icon_state = "4-8"},/obj/structure/catwalk/over/plated_catwalk/dark,/obj/machinery/navbeacon/wayfinding{location = "andromeda_atmos"},/turf/open/floor/plating,/area/ship/science/robotics)
 "fR" = (/obj/machinery/holopad/emergency/command,/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-8"},/turf/open/floor/pod,/area/ship/bridge)
 "gc" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 8},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/structure/catwalk/over/plated_catwalk/dark,/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/ship/engineering)
 "gf" = (/turf/open/floor/engine,/area/ship/engineering/engine)
@@ -86,6 +88,7 @@
 "if" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 5},/obj/machinery/airalarm/directional/west,/turf/open/floor/holofloor/wood,/area/ship/bridge)
 "ij" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 5},/obj/structure/catwalk/over/plated_catwalk/dark,/obj/structure/cable{icon_state = "2-4"},/obj/structure/cable{icon_state = "1-2"},/obj/machinery/camera/autoname{dir = 5},/turf/open/floor/plating,/area/ship/engineering)
 "iq" = (/obj/structure/chair{dir = 8},/obj/effect/turf_decal/industrial/warning{dir = 1},/turf/open/floor/mineral/plastitanium/red,/area/ship/hallway/central)
+"ir" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/structure/catwalk/over/plated_catwalk/dark,/obj/machinery/navbeacon/wayfinding{location = "andromeda_atmos"},/turf/open/floor/plating,/area/ship/engineering)
 "it" = (/turf/closed/wall/r_wall/syndicate/nodiagonal,/area/ship/engineering/communications)
 "iu" = (/obj/structure/table/reinforced,/turf/open/floor/plasteel/dark,/area/ship/science/robotics)
 "iC" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 8},/obj/machinery/atmospherics/pipe/simple/cyan/visible{dir = 4},/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{dir = 1},/obj/structure/catwalk/over/plated_catwalk/dark,/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/ship/engineering/atmospherics)
@@ -124,7 +127,7 @@
 "lJ" = (/obj/effect/turf_decal/industrial/warning{dir = 8},/obj/machinery/atmospherics/pipe/simple/orange/visible{dir = 4},/turf/open/floor/engine,/area/ship/engineering/engine)
 "lK" = (/obj/effect/turf_decal/industrial/warning{dir = 4},/turf/open/floor/mineral/plastitanium/red,/area/ship/hallway/central)
 "lN" = (/obj/effect/turf_decal/industrial/warning,/turf/open/floor/engine,/area/ship/engineering/engine)
-"lP" = (/obj/structure/cable{icon_state = "1-4"},/turf/open/floor/mineral/plastitanium/red,/area/ship/security/armory)
+"lP" = (/obj/structure/cable{icon_state = "1-4"},/obj/machinery/navbeacon/wayfinding{location = "andromeda_atmos"},/turf/open/floor/mineral/plastitanium/red,/area/ship/security/armory)
 "lU" = (/obj/machinery/door/airlock/engineering{name = "Engine Room"; req_access_txt = "10"},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/machinery/door/firedoor/border_only,/obj/machinery/door/firedoor/border_only{dir = 1},/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/mineral/plastitanium,/area/ship/science/robotics)
 "lX" = (/obj/structure/filingcabinet/security,/obj/item/folder/syndicate/mining,/turf/open/floor/engine,/area/ship/bridge)
 "lY" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 5},/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-4"},/obj/structure/cable{icon_state = "1-4"},/obj/structure/catwalk/over/plated_catwalk/dark,/turf/open/floor/plating,/area/ship/engineering)
@@ -140,6 +143,7 @@
 "nl" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/structure/catwalk/over/plated_catwalk/dark,/turf/open/floor/plating,/area/ship/engineering)
 "nq" = (/obj/machinery/atmospherics/pipe/simple/orange/visible{dir = 4},/obj/machinery/atmospherics/pipe/simple/green/visible,/turf/open/floor/plasteel/tech,/area/ship/engineering/atmospherics)
 "ny" = (/obj/machinery/porta_turret/ship/ballistic,/turf/closed/wall/r_wall/syndicate/nodiagonal,/area/ship/cargo)
+"nz" = (/obj/structure/window/plasma/reinforced/plastitanium,/obj/machinery/door/poddoor{id = "andromeda_1_engine_shutter"; name = "Window Shield"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 1},/turf/open/space/basic,/area/ship/engineering)
 "nD" = (/turf/open/floor/plasteel/telecomms_floor,/area/ship/engineering/communications)
 "nF" = (/obj/machinery/computer/atmos_control/tank/toxin_tank{dir = 1},/turf/open/floor/plasteel/tech,/area/ship/engineering/atmospherics)
 "nG" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible{dir = 4},/obj/machinery/atmospherics/pipe/simple/orange/visible,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/obj/structure/catwalk/over/plated_catwalk/dark,/turf/open/floor/plating,/area/ship/engineering/atmospherics)
@@ -176,7 +180,7 @@
 "qJ" = (/obj/effect/turf_decal/industrial/warning{dir = 1},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/dark/visible{dir = 8},/obj/item/radio/intercom/directional/north,/turf/open/floor/engine,/area/ship/engineering/engine)
 "qQ" = (/turf/open/floor/mineral/plastitanium/red,/area/ship/hallway/central)
 "qU" = (/obj/effect/turf_decal/industrial/warning{dir = 8},/obj/machinery/atmospherics/pipe/simple/dark/visible{dir = 8},/turf/open/floor/engine,/area/ship/engineering/engine)
-"qW" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plasteel/white,/area/ship/medical)
+"qW" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/navbeacon/wayfinding{location = "andromeda_atmos"},/turf/open/floor/plasteel/white,/area/ship/medical)
 "rc" = (/obj/structure/window/plasma/reinforced/plastitanium,/obj/machinery/atmospherics/pipe/simple/orange/visible{dir = 10},/turf/open/floor/mineral/plastitanium,/area/ship/engineering/atmospherics)
 "rj" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/obj/machinery/atmospherics/pipe/simple/scrubbers/visible{dir = 6},/obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{dir = 4},/obj/structure/catwalk/over/plated_catwalk/dark,/obj/structure/catwalk/over/plated_catwalk/dark,/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plating,/area/ship/engineering)
 "rl" = (/obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{dir = 5},/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{dir = 8},/obj/machinery/power/apc/auto_name/directional/east,/obj/structure/cable{icon_state = "0-8"},/turf/open/floor/plasteel/white,/area/ship/medical)
@@ -185,6 +189,7 @@
 "rw" = (/obj/structure/extinguisher_cabinet/directional/north,/turf/open/floor/plasteel/dark,/area/ship/science/robotics)
 "rx" = (/obj/structure/window/plasma/reinforced/plastitanium,/obj/machinery/door/poddoor{id = "andromeda_1_engine_shutter"; name = "Window Shield"},/turf/open/space/basic,/area/ship/engineering)
 "rC" = (/obj/structure/table/optable,/turf/open/floor/plasteel/dark,/area/ship/science/robotics)
+"rE" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{dir = 1; filter_types = list("n2")},/turf/open/floor/plating,/area/ship/engineering)
 "rJ" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 5},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 9},/turf/open/floor/plasteel/telecomms_floor,/area/ship/engineering/communications)
 "rM" = (/obj/effect/turf_decal/atmos/oxygen,/turf/open/floor/engine/o2,/area/ship/engineering/atmospherics)
 "sb" = (/obj/structure/bed,/obj/structure/curtain/cloth/fancy{name = "blood-red curtains"},/obj/item/bedsheet/black,/turf/open/floor/plasteel/tech,/area/ship/crew/cryo)
@@ -240,7 +245,7 @@
 "wW" = (/obj/machinery/atmospherics/components/binary/pump{dir = 8},/turf/open/floor/engine,/area/ship/engineering/engine)
 "wY" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 4},/turf/open/floor/plasteel/tech,/area/ship/engineering)
 "wZ" = (/obj/structure/catwalk/over/plated_catwalk/dark,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 8},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/ship/engineering)
-"xj" = (/obj/machinery/navbeacon,/turf/open/floor/plasteel/tech,/area/ship/bridge)
+"xj" = (/obj/machinery/navbeacon/wayfinding{location = "andromeda_atmos"},/turf/open/floor/plasteel/tech,/area/ship/bridge)
 "xm" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 8},/obj/structure/cable{icon_state = "4-8"},/obj/effect/turf_decal/industrial/warning{dir = 8},/turf/open/floor/mineral/plastitanium/red,/area/ship/hallway/central)
 "xq" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 8},/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{dir = 1},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plasteel/tech,/area/ship/engineering)
 "xv" = (/turf/closed/wall/mineral/plastitanium,/area/ship/cargo)
@@ -292,12 +297,13 @@
 "AS" = (/obj/effect/turf_decal/atmos/air,/turf/open/floor/engine/air,/area/ship/engineering/atmospherics)
 "Bd" = (/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{dir = 4},/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{dir = 8},/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plasteel/white,/area/ship/medical)
 "Bf" = (/obj/machinery/light/directional/west,/obj/structure/chair/stool/bar{dir = 4},/turf/open/floor/wood,/area/ship/crew/canteen)
-"Bk" = (/obj/structure/window/plasma/reinforced/plastitanium,/obj/machinery/door/poddoor{id = "andromeda_bridge"; dir = 4},/obj/docking_port/mobile{dir = 4; launch_status = 0; port_direction = 8},/turf/open/space/basic,/area/ship/bridge)
+"Bk" = (/obj/machinery/door/poddoor{id = "andromeda_bridge"; dir = 4},/obj/structure/window/plasma/reinforced/plastitanium,/turf/open/space/basic,/area/ship/bridge)
 "BE" = (/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{dir = 1},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 8},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/firealarm/directional/north,/turf/open/floor/mineral/plastitanium,/area/ship/hallway/central)
 "BF" = (/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/obj/structure/catwalk/over/plated_catwalk/dark,/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plating,/area/ship/engineering/atmospherics)
 "BL" = (/obj/machinery/airalarm/directional/east,/turf/open/floor/wood,/area/ship/crew/canteen)
 "BR" = (/obj/machinery/power/smes/shuttle/precharged{dir = 4},/obj/structure/cable/yellow{icon_state = "0-8"},/obj/structure/window/reinforced{dir = 8},/obj/machinery/door/window/eastright{name = "Engine Access"},/obj/machinery/door/poddoor{dir = 4; id = "andromeda_1_engine_shutter"},/turf/open/floor/plasteel/tech,/area/ship/engineering)
 "BU" = (/obj/machinery/advanced_airlock_controller/internal{pixel_y = -24},/obj/structure/closet/firecloset/full{anchored = 1; can_be_unanchored = 1},/turf/open/floor/plasteel/tech,/area/ship/engineering)
+"BX" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible{dir = 4},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/obj/structure/catwalk/over/plated_catwalk/dark,/obj/machinery/navbeacon/wayfinding{location = "andromeda_atmos"},/turf/open/floor/plating,/area/ship/engineering/atmospherics)
 "Cf" = (/obj/structure/bed/pod,/obj/item/bedsheet/medical,/obj/machinery/iv_drip,/obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{dir = 4},/obj/item/radio/intercom/directional/east,/turf/open/floor/plasteel/white,/area/ship/medical)
 "Ch" = (/obj/structure/table/reinforced,/obj/machinery/recharger,/obj/machinery/power/apc/auto_name/directional/north,/obj/structure/cable{icon_state = "0-2"},/obj/item/stack/sheet/glass,/obj/item/stack/sheet/metal,/turf/open/floor/mineral/plastitanium,/area/ship/security/armory)
 "Cl" = (/obj/structure/cable{icon_state = "0-1"},/obj/machinery/power/shieldwallgen/atmos{anchored = 1; dir = 8; id = "andromeda_cargo_holo"; locked = 1},/obj/machinery/door/poddoor{id = "andromeda_cargo_blast"},/turf/open/floor/plasteel/tech,/area/ship/cargo)
@@ -317,10 +323,11 @@
 "Dw" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plasteel/white,/area/ship/medical)
 "Dy" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "1-2"},/obj/structure/catwalk/over/plated_catwalk/dark,/turf/open/floor/plating,/area/ship/engineering)
 "DB" = (/obj/machinery/rnd/production/circuit_imprinter/department/engi,/turf/open/floor/plasteel/dark,/area/ship/science/robotics)
+"DE" = (/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "1-2"},/obj/structure/catwalk/over/plated_catwalk/dark,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 1},/turf/open/floor/plating,/area/ship/engineering)
 "DX" = (/obj/effect/turf_decal/industrial/warning{dir = 1},/turf/open/floor/mineral/plastitanium/red,/area/ship/hallway/central)
 "Eb" = (/obj/machinery/door/airlock/external{req_access = list(150)},/obj/effect/mapping_helpers/airlock/cyclelink_helper,/turf/open/floor/mineral/plastitanium,/area/ship/hallway/central)
 "Ef" = (/obj/machinery/light/directional/north,/obj/effect/turf_decal/industrial/outline/yellow,/turf/open/floor/plasteel/dark,/area/ship/science/robotics)
-"En" = (/obj/machinery/airalarm/directional/west,/mob/living/simple_animal/hostile/bear/snow{faction = list("neutral"); name = "Mr. Hugs"},/obj/structure/bed/dogbed,/turf/open/floor/pod,/area/ship/bridge)
+"En" = (/obj/machinery/airalarm/directional/west,/obj/structure/bed/dogbed,/mob/living/simple_animal/hostile/carp/megacarp{name = "Mr. Bones"; faction = list("neutral")},/turf/open/floor/pod,/area/ship/bridge)
 "Ep" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 8},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 8},/obj/machinery/door/airlock/hatch{name = "Briefing"; dir = 4},/obj/machinery/door/firedoor/border_only{dir = 4},/obj/machinery/door/firedoor/border_only{dir = 8},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/door/poddoor{id = "andromeda_bridge_lockdown"; dir = 4},/turf/open/floor/mineral/plastitanium,/area/ship/hallway/central)
 "Es" = (/obj/structure/table/reinforced,/obj/structure/table/reinforced,/obj/item/radio/intercom/directional/south,/obj/item/radio/intercom/wideband/table,/turf/open/floor/pod,/area/ship/bridge)
 "EL" = (/turf/closed/wall/r_wall/syndicate/nodiagonal,/area/ship/bridge)
@@ -353,7 +360,7 @@
 "GW" = (/obj/structure/window/plasma/reinforced/spawner/north,/obj/machinery/telecomms/bus/preset_three{network = "synd_commnet"; freq_listening = list(1213,1353,1459)},/turf/open/floor/circuit/red,/area/ship/engineering/communications)
 "GX" = (/obj/machinery/porta_turret/ship/ballistic,/turf/closed/wall/mineral/plastitanium,/area/ship/engineering/atmospherics)
 "Hc" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 1},/turf/open/floor/pod,/area/ship/cargo)
-"Hl" = (/obj/machinery/camera/autoname{dir = 5},/turf/open/space/basic,/area/ship/bridge)
+"Hl" = (/obj/structure/catwalk,/obj/docking_port/mobile{dir = 2; launch_status = 0; port_direction = 8; preferred_direction = 4},/turf/open/floor/plating/airless,/area/ship/external/dark)
 "HA" = (/obj/machinery/atmospherics/pipe/simple/orange/visible{dir = 4},/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{dir = 4},/obj/structure/catwalk/over/plated_catwalk/dark,/turf/open/floor/plating,/area/ship/engineering)
 "HD" = (/obj/machinery/door/airlock/medical,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/obj/machinery/door/firedoor/border_only{dir = 1},/obj/machinery/door/firedoor/border_only,/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/mineral/plastitanium,/area/ship/medical)
 "HG" = (/obj/machinery/atmospherics/components/unary/thermomachine/freezer{dir = 1; heat_capacity = 500; name = "thermo-electric cooler"},/turf/open/floor/plasteel/tech,/area/ship/engineering)
@@ -396,7 +403,7 @@
 "Kr" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/obj/structure/catwalk/over/plated_catwalk/dark,/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plating,/area/ship/engineering)
 "Ku" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/obj/machinery/atmospherics/pipe/simple/orange/visible{dir = 10},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/structure/catwalk/over/plated_catwalk/dark,/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/plating,/area/ship/engineering/atmospherics)
 "Kx" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 8},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/holofloor/wood,/area/ship/bridge)
-"KE" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 5},/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "1-4"},/obj/structure/catwalk/over/plated_catwalk/dark,/turf/open/floor/plating,/area/ship/engineering)
+"KE" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "1-4"},/obj/structure/catwalk/over/plated_catwalk/dark,/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{dir = 8},/turf/open/floor/plating,/area/ship/engineering)
 "KK" = (/obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/n2{dir = 8},/turf/open/floor/plasteel/tech,/area/ship/engineering/atmospherics)
 "KL" = (/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/oxygen_output,/turf/open/floor/engine/o2,/area/ship/engineering/atmospherics)
 "KM" = (/obj/machinery/atmospherics/pipe/layer_manifold,/obj/structure/catwalk/over/plated_catwalk/dark,/obj/machinery/firealarm/directional/east,/turf/open/floor/plating,/area/ship/engineering/atmospherics)
@@ -553,6 +560,7 @@
 "Yg" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/holofloor/wood,/area/ship/bridge)
 "Yj" = (/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{dir = 1},/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{dir = 1},/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/mineral/plastitanium/red,/area/ship/hallway/central)
 "Yk" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 5},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 5},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/camera/autoname{dir = 10},/turf/open/floor/plasteel/tech,/area/ship/crew/cryo)
+"Yn" = (/obj/machinery/navbeacon/wayfinding{location = "andromeda_atmos"},/turf/open/floor/pod,/area/ship/cargo)
 "Yo" = (/obj/effect/turf_decal/industrial/warning,/turf/open/floor/mineral/plastitanium/red,/area/ship/hallway/central)
 "Yt" = (/obj/machinery/camera/autoname{dir = 5},/turf/open/floor/pod,/area/ship/bridge)
 "Yy" = (/obj/structure/window/plasma/reinforced/plastitanium,/obj/machinery/door/poddoor/shutters{id = "andromeda_surgery"; name = "Closing Shutters"},/turf/open/floor/mineral/plastitanium,/area/ship/medical)
@@ -583,28 +591,28 @@ iRBRdWuxkFkFTaXXOtOMFCKLOMWIgkOMZQlpSrFeFeFeGUzlzlgCzlzlzlzlzlzlzlzlzlzlzlzlzlzl
 iRBRdWuxVXbHTavBVEZfvBJorcvBYcZfVEVESrjojooNGUDlPUPUPUDlDlEbDlZOgCgCgCgCgCgCgCzlzlzlzlzlzlzlzlzlzlzl
 iRBRdWDyYQbHRKKKAJMxSZWWxHhCdVVesPevjujoprwzSrZSjYiqDXGODlucHSDlPAzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzl
 iRBRdWKEmpuaAhJrJUwyiCeNwAiNnddLkaKMbHbHbHbHbHeIqQqQqQFADlPIgBpojPjPjPjPjPjPZOgCgCgCgCgCgCgCgCgCgCzl
-iRBRdWXUJVbHsXUezebfHVJSyayanGQTarBFJQEYIwVniZxmMDMDkSApDlscJipoMmhdZxjPChTLjPKOKOKOKOyXZOzlzlzlzlzl
-iRBRdWkIYQbHsYprOdzPolzinFbTnInqKulfbHTvBUGNbHSpYoqQculKDlcpDlpoZalPiGAEytQXpoUrmBpZYbuJKOHlzlzlzlzl
-LabHrxrxrxbHSrSrSrSrSrSrSrSrAwazklESSrbHbHWRWRWRDlyBaEqQuGgyfspocEqnGmRcKURupojOMZSLMZUUKOELyNyNyNEL
-zlzlzlzlzlZOIgIgUOVbhSwYiDWYoxNstaUkXSIkHGWRWKewDlnfaEqQqQVfkhpopopopopozxpopoEnOSIocyoSkQEQdnSPAKFi
+iRBRdWDEJVbHsXUezebfHVJSBXyanGQTarBFJQEYIwVniZxmMDMDkSApDlscJipoMmhdZxjPChTLjPKOKOKOKOyXZOzlzlzlzlzl
+iRBRdWcxYQbHsYprOdzPolzinFbTnInqKulfbHTvBUGNbHSpYoqQculKDlcpDlpoZalPiGAEytQXpoUrmBpZYbuJKOzlzlzlzlzl
+LabHrxnzrxbHSrSrSrSrSrSrSrSrAwazklESSrbHbHWRWRWRDlyBaEqQuGgyfspocEqnGmRcKURupojOMZSLMZUUKOELyNyNyNEL
+zlzlzlrEzlZOIgIgUOVbhSwYiDWYoxNstaUkXSIkHGWRWKewDlnfaEqQqQVfkhpopopopopozxpopoEnOSIocyoSkQEQdnSPAKFi
 zlzlzlzlzlzldXepePePePePrjvPLTVwhthtNjIkHGWRropnSbcZyAMDMDZoIeEpCnBECPRMsuCwEpNPSKfRqevFvFUAFfySVVFi
-zlzlzlzlzlzlzlIgaHaHaHaHDtnldedededekibHbHWRWRWRDlkcYoYotSzQoQDlgQbzUuwqIFgQCqYtaFjczLTNMETyxjykRJBk
+zlzlzlzlzlzlzlIgaHaHaHaHDtnldedededekiOvOvOvOvOvDlkcYoYotSzQoQDlgQbzUuwqIFgQCqYtaFjczLTNMETyxjykRJBk
 zlzlzlzlzlzlzlYFYFYFYFYFijgcKllhvQqJRYOvzbzMKVOvDlgqgqqAgqgqgqDlDlDlDlDlDlDlDlELELWHeXEsAmXczUFfaBFi
 zlzlzlzlzlzlzldeXVSnhQQONiTcqUpVzCpVPQOvsbAbKVOvYSDXDXDXDXDXDXNfXxQARUTgELELlXehLBRBKOKOKOKOELyNyNad
-zlzlzlzlzlzlzlpGvKJKpgxGKrnlNugfwIKpnXOvsbpDKVOvfkMDwcMDMDYjMDMDMDMDMDXAELUcMLbyDagIKOzlzlzlzlzlzlzl
+zlzlzlzlzlzlzlpGvKJKpgxGKrirNugfwIKpnXOvsbpDKVOvfkMDwcMDMDYjMDMDMDMDMDXAELUcMLbyDagIKOzlzlzlzlzlzlzl
 zlzlzlzlzlzlzldeLgdecvhxLhHAlJwWowwWOzOvupycGiOvXrqQgMohohSaohIdYoYogMvlELELGbRfclWNKOKOELyNyNadzlzl
 zlzlzlzlzlzlzlYFYFYFYFYFFcnlgVlNPMlNZqOvWwYkUHIQyplKVkYyYyHDYyDlPPPPDlLXGzGzGzGzGzYgpMmrWkmZvcFizlzl
 zlzlzlzlzlzlzlIgzIzIzIzIKrnldededededeOvOvOvOvOvcGlKAdzoOymcFoVkOGOLISgsLOUJZHulGzoiKxybdrvcvcFizlzl
 zlzlzlzlzlzlzlIgkFkFkFkFNNCxwZuMOHwZSvLpvexqiZujqolKAdGxUYqWCfVkOGOLFHUmCBOLOLJLGzifpKFdpKkyvcFizlzl
-zlzlzlzlzlZOIgIgstRrKQckcqWGTETEdvhtbHTvBUGNbHSpYolyAdlrNOBdsUVkOGOLHcOLXOOLOLhZGzcAruKhgjvcvcFizlzl
+zlzlzlzlzlZOIgIgstRrKQckcqWGTETEdvhtbHTvBUGNbHSpYolyAdlrNOBdsUVkOGOLHcYnXOOLOLhZGzcAruKhgjvcvcFizlzl
 LabHQdQdQdbHwvwvwvwvwvwvwvwvwvwvlUOFbHbHbHbHbHPPPPnZVkxIRFDwIcVkOGOLOLOLzwRAxvxvxvKOKOELyNyNyNadzlzl
 iRWodWCCkFkFwvhjLSqmLGiPIsEfIsqGcHgwygPKjIitvivCdKBLVkYyYyzpYyVkXhGqGqGqGqZmxvzlzlzlzlgCzlzlzlzlzlzl
 iRWodWuxVXbHwviOLoiOiOHNiOiOiOiOmkititWfTQityVvCPevCVkuHPnOprlVkGzDeaVaVaVhRxvzlzlzlzlzlzlzlzlzlzlzl
 iRWodWDyYQbHrwDBFvYPKqpvrCIsIsiObDitcoWfGhitQLvCvCvCVkYJUYUYsIUnGzvgJaJaJaClnyzlzlzlzlzlzlzlzlzlzlzl
-iRWodWlYvdMcFPFPFPJHSEUTFPFPJHFPMTitAarJwhitYIvCvCvCVkNRUYoTweUngCzlzlCUzlzlzlzlzlzlzlzlzlzlzlzlzlzl
+iRWodWlYvdMcFPFPFPJHSEUTfzFPJHFPMTitAarJwhitYIvCvCvCVkNRUYoTweUngCzlzlCUzlzlzlzlzlzlzlzlzlzlzlzlzlzl
 iRWodWXUYQbHatiOiOHNvRiOiOiOHNiOvyitGWftIjitBfdNFmKfVkdZynwQkYUnzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzl
 iRWodWXUJVbHwvOJWjJPotiusTWjLUotiOitwBnDJuitdsdsdsdsVkUnUnUnUnufzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzl
 iRWodWaTCCXbwviOIPSAIPNziOIPSAIPbuitiaQmbGLsgCgCgCgCgCgCKggCgCgCgCgCgCgCzlzlzlzlzlzlzlzlzlzlzlzlzlzl
 LabHWTkFZyuWVHVHyEeZwnVHVHlnffLxVHLsLsLsLsZOzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzl
-zlIgIgIgIgIgZOzlzlzlzlzlgCzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzl
+zlIgIgIgIgIgZOzlzlzlzlzlHlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzl
 "}
