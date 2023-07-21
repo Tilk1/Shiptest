@@ -3376,10 +3376,6 @@
 	},
 /turf/open/floor/circuit/red,
 /area/ship/engineering/communications)
-"GX" = (
-/obj/machinery/porta_turret/ship/ballistic,
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/engineering/atmospherics)
 "Hc" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
@@ -6078,7 +6074,7 @@ zl
 "}
 (23,1,1) = {"
 sO
-GX
+ZO
 GU
 GU
 GU
