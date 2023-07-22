@@ -164,7 +164,7 @@ SUBSYSTEM_DEF(mapping)
 	var/list/data = json_decode(file)
 	if(!data)
 		log_world("map config is not json: [filename]")
-		continue
+		return
 
 	CHECK_STRING_EXISTS("map_name")
 	CHECK_STRING_EXISTS("map_path")
@@ -209,7 +209,7 @@ SUBSYSTEM_DEF(mapping)
 
 		if(!job_slot || !slots)
 			stack_trace("Invalid job slot entry! [job]: [value] on [S.name]'s config! Excluding job.")
-			continue
+			return
 
 		S.job_slots[job_slot] = slots
 	if(isnum(data["limit"]))
