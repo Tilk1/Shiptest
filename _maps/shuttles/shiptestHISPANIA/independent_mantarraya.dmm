@@ -712,7 +712,8 @@
 	},
 /obj/structure/cable,
 /obj/structure/extinguisher_cabinet/directional/west,
-/obj/item/stack/sheet/mineral/plasma/twenty,
+/obj/item/stack/sheet/mineral/plasma/five,
+/obj/item/stack/sheet/mineral/plasma/five,
 /turf/open/floor/plating,
 /area/ship/crew)
 "pJ" = (
