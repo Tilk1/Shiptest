@@ -1832,11 +1832,6 @@
 /obj/item/ammo_box/a357,
 /obj/item/ammo_box/a357,
 /obj/item/radio/headset/syndicate/alt/leader,
-/obj/item/areaeditor/shuttle{
-	pixel_x = -1;
-	pixel_y = -1
-	},
-/obj/item/disk/nuclear,
 /turf/open/floor/holofloor/wood,
 /area/ship/bridge)
 "rw" = (
@@ -3411,6 +3406,7 @@
 /obj/item/blackbox,
 /obj/structure/closet/crate,
 /obj/machinery/airalarm/directional/south,
+/obj/item/clothing/neck/stethoscope,
 /turf/open/floor/engine,
 /area/ship/bridge)
 "Gh" = (
@@ -4575,6 +4571,13 @@
 	dir = 4
 	},
 /obj/structure/safe,
+/obj/item/disk/nuclear,
+/obj/item/dualsaber/red,
+/obj/item/storage/box/syndie_kit/guardian,
+/obj/item/areaeditor/shuttle{
+	pixel_x = -1;
+	pixel_y = -1
+	},
 /turf/open/floor/engine,
 /area/ship/bridge)
 "Rr" = (
