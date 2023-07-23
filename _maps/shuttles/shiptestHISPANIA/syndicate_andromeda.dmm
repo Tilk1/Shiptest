@@ -113,10 +113,6 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
-"bc" = (
-/obj/structure/sign/poster/contraband/bulldog,
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/bridge)
 "bf" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -475,12 +471,11 @@
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
 "ef" = (
-/obj/effect/turf_decal/corner/opaque/syndiered{
-	dir = 5
+/obj/machinery/computer/communications{
+	dir = 8
 	},
-/obj/machinery/computer/helm/viewscreen/directional/north,
-/turf/open/floor/mineral/plastitanium,
-/area/ship/cargo)
+/turf/open/floor/wood,
+/area/ship/bridge)
 "eh" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
@@ -584,6 +579,10 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
+"fp" = (
+/obj/machinery/holopad/emergency/command,
+/turf/open/floor/plasteel/dark,
+/area/ship/science/robotics)
 "fs" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -625,10 +624,6 @@
 	location = "andromeda_atmos"
 	},
 /turf/open/floor/plating,
-/area/ship/science/robotics)
-"fD" = (
-/obj/machinery/holopad/emergency/command,
-/turf/open/floor/plasteel/dark,
 /area/ship/science/robotics)
 "fR" = (
 /obj/machinery/holopad/emergency/command,
@@ -726,6 +721,13 @@
 /obj/structure/catwalk,
 /turf/open/floor/plating/airless,
 /area/ship/external/dark)
+"gF" = (
+/obj/effect/turf_decal/corner/opaque/syndiered{
+	dir = 5
+	},
+/obj/machinery/computer/helm/viewscreen/directional/north,
+/turf/open/floor/mineral/plastitanium,
+/area/ship/cargo)
 "gI" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -747,9 +749,6 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
-"gN" = (
-/turf/open/floor/wood,
-/area/ship/bridge)
 "gQ" = (
 /obj/machinery/camera/autoname{
 	dir = 8
@@ -768,6 +767,17 @@
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
+"gZ" = (
+/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/machinery/door/poddoor{
+	id = "andromeda_2_engine_shutter";
+	name = "Window Shield"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering)
 "hd" = (
 /obj/structure/rack,
 /obj/machinery/power/apc/auto_name/directional/north,
@@ -1573,16 +1583,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
-"oE" = (
-/obj/structure/cable{
-	icon_state = "2-8"
-	},
-/obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/ship/engineering)
 "oN" = (
 /obj/machinery/portable_atmospherics/scrubber,
 /turf/open/floor/plasteel/tech,
@@ -1667,11 +1667,9 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
-"pB" = (
-/obj/machinery/computer/cargo/express{
-	dir = 8
-	},
-/turf/open/floor/wood,
+"pC" = (
+/obj/structure/sign/poster/contraband/bulldog,
+/turf/closed/wall/mineral/plastitanium,
 /area/ship/bridge)
 "pD" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -1896,6 +1894,12 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
+"rA" = (
+/obj/machinery/modular_computer/console/preset/command{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
 "rC" = (
 /obj/structure/table/optable,
 /turf/open/floor/plasteel/dark,
@@ -1935,12 +1939,6 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
-"sq" = (
-/obj/effect/turf_decal/corner/opaque/syndiered{
-	dir = 10
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ship/cargo)
 "st" = (
 /obj/machinery/computer/apc_control{
 	dir = 1
@@ -2136,11 +2134,6 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
 /area/ship/engineering)
-"uz" = (
-/obj/structure/catwalk,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
-/turf/open/floor/plating/airless,
-/area/ship/engineering)
 "uG" = (
 /obj/machinery/airalarm/directional/north,
 /obj/effect/turf_decal/industrial/warning{
@@ -2184,9 +2177,10 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "vc" = (
-/obj/machinery/computer/communications{
-	dir = 8
-	},
+/obj/structure/table/wood,
+/obj/item/folder/syndicate/red,
+/obj/item/storage/fancy/cigarettes/cigars,
+/obj/item/lighter,
 /turf/open/floor/wood,
 /area/ship/bridge)
 "vd" = (
@@ -3169,17 +3163,6 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
 /area/ship/engineering)
-"CD" = (
-/obj/machinery/suit_storage_unit/syndicate,
-/obj/item/clothing/shoes/magboots/syndie{
-	pixel_x = -6;
-	pixel_y = -5
-	},
-/obj/effect/turf_decal/corner/opaque/syndiered{
-	dir = 9
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ship/cargo)
 "CP" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -3236,12 +3219,6 @@
 "Dl" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/hallway/central)
-"Do" = (
-/obj/machinery/modular_computer/console/preset/command{
-	dir = 8
-	},
-/turf/open/floor/wood,
-/area/ship/bridge)
 "Dt" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/structure/catwalk/over/plated_catwalk/dark,
@@ -3552,6 +3529,20 @@
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
+"GH" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1;
+	filter_types = list("n2")
+	},
+/turf/open/floor/plating,
+/area/ship/engineering)
 "GN" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
@@ -3586,15 +3577,11 @@
 /area/ship/engineering/communications)
 "GX" = (
 /obj/structure/cable{
-	icon_state = "1-8"
-	},
-/obj/structure/cable{
-	icon_state = "1-2"
+	icon_state = "2-8"
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
-	dir = 1;
-	filter_types = list("n2")
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
@@ -3855,23 +3842,6 @@
 	},
 /turf/open/floor/circuit/red,
 /area/ship/engineering/communications)
-"Jy" = (
-/obj/structure/chair/office/dark{
-	dir = 4
-	},
-/turf/open/floor/wood,
-/area/ship/bridge)
-"JF" = (
-/obj/structure/window/plasma/reinforced/plastitanium,
-/obj/machinery/door/poddoor{
-	id = "andromeda_2_engine_shutter";
-	name = "Window Shield"
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 1
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering)
 "JH" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -4152,6 +4122,11 @@
 	},
 /obj/machinery/light/directional/west,
 /turf/open/floor/plating,
+/area/ship/engineering)
+"Ll" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/turf/open/floor/plating/airless,
 /area/ship/engineering)
 "Lo" = (
 /obj/structure/chair/office{
@@ -4464,6 +4439,17 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering/atmospherics)
+"Oo" = (
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/item/clothing/shoes/magboots/syndie{
+	pixel_x = -6;
+	pixel_y = -5
+	},
+/obj/effect/turf_decal/corner/opaque/syndiered/three_quarters{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ship/cargo)
 "Op" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 5
@@ -4517,8 +4503,8 @@
 	pixel_x = -6;
 	pixel_y = -5
 	},
-/obj/effect/turf_decal/corner/opaque/syndiered/three_quarters{
-	dir = 4
+/obj/effect/turf_decal/corner/opaque/syndiered{
+	dir = 9
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
@@ -4544,6 +4530,9 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/science/robotics)
 "OL" = (
+/obj/effect/turf_decal/corner/opaque/syndiered{
+	dir = 10
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
 "OM" = (
@@ -4573,12 +4562,8 @@
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "PA" = (
-/obj/structure/catwalk,
-/obj/machinery/camera/autoname{
-	dir = 6
-	},
-/turf/open/floor/plating/airless,
-/area/ship/external/dark)
+/turf/open/floor/mineral/plastitanium,
+/area/ship/cargo)
 "PI" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/item/radio/intercom/directional/west,
@@ -4770,6 +4755,12 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
+"RE" = (
+/obj/machinery/computer/cargo/express{
+	dir = 8
+	},
+/turf/open/floor/wood,
+/area/ship/bridge)
 "RF" = (
 /obj/machinery/computer/operating{
 	dir = 1
@@ -4950,6 +4941,9 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
+"SS" = (
+/turf/open/floor/wood,
+/area/ship/bridge)
 "SZ" = (
 /obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/o2{
 	dir = 8
@@ -5119,16 +5113,11 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "Us" = (
-/obj/machinery/suit_storage_unit/syndicate,
-/obj/item/clothing/shoes/magboots/syndie{
-	pixel_x = -6;
-	pixel_y = -5
+/obj/structure/chair/office/dark{
+	dir = 4
 	},
-/obj/effect/turf_decal/corner/opaque/syndiered/three_quarters{
-	dir = 1
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ship/cargo)
+/turf/open/floor/wood,
+/area/ship/bridge)
 "Uu" = (
 /obj/machinery/camera/autoname{
 	dir = 1
@@ -5286,11 +5275,7 @@
 /turf/open/floor/wood,
 /area/ship/bridge)
 "Wl" = (
-/obj/structure/catwalk,
-/obj/machinery/camera/autoname{
-	dir = 5
-	},
-/turf/open/floor/plating/airless,
+/turf/template_noop,
 /area/ship/external/dark)
 "Wo" = (
 /obj/machinery/power/smes/shuttle/precharged{
@@ -5593,13 +5578,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
-"Yu" = (
-/obj/structure/table/wood,
-/obj/item/folder/syndicate/red,
-/obj/item/storage/fancy/cigarettes/cigars,
-/obj/item/lighter,
-/turf/open/floor/wood,
-/area/ship/bridge)
 "Yy" = (
 /obj/structure/window/plasma/reinforced/plastitanium,
 /obj/machinery/door/poddoor/shutters{
@@ -5725,6 +5703,17 @@
 /obj/item/radio/intercom/directional/north,
 /obj/effect/turf_decal/corner/opaque/syndiered{
 	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ship/cargo)
+"ZN" = (
+/obj/machinery/suit_storage_unit/syndicate,
+/obj/item/clothing/shoes/magboots/syndie{
+	pixel_x = -6;
+	pixel_y = -5
+	},
+/obj/effect/turf_decal/corner/opaque/syndiered/three_quarters{
+	dir = 1
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
@@ -5877,13 +5866,13 @@ zl
 zl
 zl
 zl
-uz
-JF
-oE
+Ll
+gZ
+GX
 Dy
 Dy
 lY
-GX
+GH
 XU
 aT
 zX
@@ -6147,7 +6136,7 @@ iP
 HN
 HN
 UT
-fD
+fp
 iu
 Nz
 VH
@@ -6484,7 +6473,7 @@ ZO
 zl
 "}
 (23,1,1) = {"
-sO
+Wl
 ZO
 GU
 GU
@@ -6832,14 +6821,14 @@ Xx
 xB
 Tx
 xv
+Oo
 OG
-CD
-CD
-Us
+OG
+ZN
 Xh
 xv
 xv
-Kg
+Wl
 zl
 zl
 zl
@@ -6865,10 +6854,10 @@ QA
 MD
 Yo
 xv
-ef
+gF
+PA
+PA
 OL
-OL
-sq
 Gq
 De
 vg
@@ -6901,7 +6890,7 @@ xv
 IS
 FH
 Hc
-sq
+OL
 Gq
 aV
 Ja
@@ -6926,7 +6915,7 @@ Rc
 jP
 RM
 wq
-bc
+pC
 Tg
 XA
 vl
@@ -6967,7 +6956,7 @@ xv
 LO
 CB
 XO
-sq
+OL
 Gq
 aV
 Ja
@@ -6998,7 +6987,7 @@ Uc
 KO
 xv
 UJ
-OL
+PA
 Uf
 RA
 Zm
@@ -7031,8 +7020,8 @@ ML
 Gb
 xv
 ZH
+PA
 OL
-sq
 xv
 xv
 xv
@@ -7199,7 +7188,7 @@ yb
 Fd
 Kh
 EL
-PA
+Wl
 zl
 zl
 zl
@@ -7261,9 +7250,9 @@ KO
 zl
 yN
 mZ
-Jy
+Us
 ky
-gN
+SS
 yN
 zl
 zl
@@ -7293,10 +7282,10 @@ zU
 EL
 zl
 yN
-Yu
-pB
 vc
-Do
+RE
+ef
+rA
 yN
 zl
 zl
@@ -7358,7 +7347,7 @@ RJ
 aB
 yN
 zl
-TM
+Wl
 zl
 zl
 zl
