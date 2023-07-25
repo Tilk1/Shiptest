@@ -219,10 +219,6 @@
 	},
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/bridge)
-"cm" = (
-/obj/machinery/firealarm/directional/south,
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering/atmospherics)
 "co" = (
 /obj/machinery/light/directional/west,
 /turf/open/floor/plasteel/telecomms_floor,
@@ -1033,9 +1029,7 @@
 	icon_state = "0-4"
 	},
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/external)
 "iX" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/cable{
@@ -3487,9 +3481,6 @@
 "EL" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/bridge)
-"EN" = (
-/turf/template_noop,
-/area/ship/external/dark)
 "EQ" = (
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/plasteel/stairs{
@@ -3582,16 +3573,8 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/science/robotics)
 "Fw" = (
-/obj/machinery/power/shuttle/engine/electric{
-	dir = 4
-	},
-/obj/structure/cable/yellow{
-	icon_state = "0-4"
-	},
-/turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/turf/template_noop,
+/area/ship/external/dark)
 "FA" = (
 /obj/machinery/vending/cola/random,
 /obj/effect/turf_decal/industrial/warning{
@@ -3940,6 +3923,12 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
+"IT" = (
+/obj/effect/turf_decal/corner/opaque/syndiered{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ship/bridge)
 "Ja" = (
 /obj/machinery/door/poddoor{
 	id = "andromeda_cargo_blast"
@@ -4103,10 +4092,6 @@
 /area/ship/engineering{
 	name = "Propulsor 1"
 	})
-"JX" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
-/turf/template_noop,
-/area/template_noop)
 "Ka" = (
 /obj/effect/turf_decal/atmos/plasma,
 /turf/open/floor/engine/plasma,
@@ -4486,6 +4471,10 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
 /area/ship/science/robotics)
+"MW" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/turf/template_noop,
+/area/template_noop)
 "MZ" = (
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
@@ -5414,12 +5403,6 @@
 /obj/machinery/vending/engivend,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
-"Vc" = (
-/obj/effect/turf_decal/corner/opaque/syndiered{
-	dir = 4
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ship/bridge)
 "Ve" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 10
@@ -5724,6 +5707,10 @@
 /area/ship/engineering{
 	name = "Propulsor 2"
 	})
+"XN" = (
+/obj/machinery/firealarm/directional/south,
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering/atmospherics)
 "XO" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 5
@@ -6033,15 +6020,15 @@ zl
 zl
 zl
 zl
-JX
+MW
 Fb
-Fw
-Fw
-Fw
+iR
+iR
+iR
 Fb
-Fw
-Fw
-Fw
+iR
+iR
+iR
 Fb
 zl
 "}
@@ -6224,11 +6211,11 @@ Sr
 Ig
 dX
 gC
-EN
-EN
-EN
-EN
-EN
+Fw
+Fw
+Fw
+Fw
+Fw
 gC
 gC
 Ig
@@ -6645,7 +6632,7 @@ GU
 Fe
 Fe
 jo
-cm
+XN
 bH
 EY
 Tv
@@ -7443,7 +7430,7 @@ KO
 uJ
 UU
 oS
-Vc
+IT
 TN
 Es
 KO
