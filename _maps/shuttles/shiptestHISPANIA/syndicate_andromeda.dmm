@@ -82,7 +82,7 @@
 "aI" = (
 /obj/machinery/air_sensor/atmos/air_tank,
 /obj/machinery/light/directional/north,
-/turf/open/floor/engine,
+/turf/open/floor/engine/air,
 /area/ship/engineering/atmospherics)
 "aT" = (
 /obj/structure/cable{
@@ -258,20 +258,12 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
 "cv" = (
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 8;
-	name = "engine fuel pump"
-	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
 	dir = 5
 	},
 /obj/machinery/light/directional/east,
-/obj/machinery/button/door{
-	dir = 4;
-	id = "andromeda_engine_vent";
-	name = "External Vent Control";
-	pixel_x = -21;
-	pixel_y = 10
+/obj/machinery/atmospherics/pipe/simple/orange/visible{
+	dir = 4
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
@@ -478,7 +470,7 @@
 	},
 /obj/structure/catwalk,
 /turf/open/floor/plating,
-/area/ship/engineering)
+/area/ship/external/dark)
 "dZ" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 10
@@ -665,7 +657,7 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/visible,
 /turf/open/floor/plating,
-/area/ship/engineering)
+/area/ship/engineering/engine)
 "gf" = (
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
@@ -862,12 +854,6 @@
 	pixel_y = 26
 	},
 /obj/machinery/light/directional/east,
-/obj/machinery/button/ignition/incinerator/atmos{
-	dir = 4;
-	pixel_x = -26;
-	pixel_y = -3;
-	id = "andromeda_atmos_incinerator_igniter"
-	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
 "hR" = (
@@ -897,11 +883,11 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "hZ" = (
-/obj/machinery/ore_silo,
 /obj/machinery/airalarm/directional/east,
 /obj/effect/turf_decal/corner/opaque/syndiered/three_quarters{
 	dir = 3
 	},
+/obj/structure/table/reinforced,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
 "ia" = (
@@ -935,7 +921,7 @@
 	dir = 5
 	},
 /turf/open/floor/plating,
-/area/ship/engineering)
+/area/ship/engineering/engine)
 "iq" = (
 /obj/structure/chair{
 	dir = 8
@@ -952,7 +938,7 @@
 	location = "andromeda_atmos"
 	},
 /turf/open/floor/plating,
-/area/ship/engineering)
+/area/ship/engineering/engine)
 "it" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/engineering/communications)
@@ -1296,7 +1282,7 @@
 /area/ship/science/robotics)
 "lp" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/mix_output,
-/turf/open/floor/engine,
+/turf/open/floor/engine/air,
 /area/ship/engineering/atmospherics)
 "lr" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
@@ -1744,16 +1730,13 @@
 /turf/open/floor/wood,
 /area/ship/bridge)
 "pM" = (
-/obj/machinery/suit_storage_unit/syndicate{
-	name = "captain's suit storage unit";
-	suit_type = /obj/item/clothing/suit/space/hardsuit/syndi/elite
-	},
 /obj/machinery/light/directional/north,
+/obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/wood,
 /area/ship/bridge)
 "pV" = (
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 4
+/obj/machinery/atmospherics/pipe/simple/dark/visible{
+	dir = 8
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
@@ -2086,8 +2069,8 @@
 "sY" = (
 /obj/item/clothing/shoes/magboots,
 /obj/item/clothing/mask/breath,
-/obj/item/clothing/suit/space/hardsuit/engine/elite,
 /obj/machinery/suit_storage_unit/inherit,
+/obj/item/clothing/suit/space/hardsuit/engine/atmos,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering/atmospherics)
 "ta" = (
@@ -2114,12 +2097,10 @@
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
 "tS" = (
-/obj/structure/chair{
-	dir = 4
-	},
-/obj/effect/turf_decal/industrial/warning,
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/hallway/central)
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
 "ua" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -2345,8 +2326,9 @@
 /obj/machinery/igniter/incinerator_atmos{
 	id = "andromeda_atmos_incinerator_igniter"
 	},
-/obj/machinery/air_sensor/atmos/incinerator_tank{
-	id_tag = "andromeda_incinerator_sensor"
+/obj/machinery/air_sensor/atmos/toxins_mixing_tank{
+	id_tag = "incinerator_sensor";
+	name = "incineration mixing gas sensor"
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
@@ -3047,7 +3029,7 @@
 /area/ship/bridge)
 "AS" = (
 /obj/effect/turf_decal/atmos/air,
-/turf/open/floor/engine,
+/turf/open/floor/engine/air,
 /area/ship/engineering/atmospherics)
 "AU" = (
 /obj/structure/catwalk,
@@ -3538,7 +3520,7 @@
 	icon_state = "1-2"
 	},
 /turf/open/floor/plating,
-/area/ship/engineering)
+/area/ship/engineering/engine)
 "Fd" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -3584,8 +3566,9 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/science/robotics)
 "Fw" = (
-/turf/template_noop,
-/area/ship/external/dark)
+/obj/machinery/door/airlock/hatch,
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/hallway/central)
 "FA" = (
 /obj/machinery/vending/cola/random,
 /obj/effect/turf_decal/industrial/warning{
@@ -3741,7 +3724,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ship/engineering)
+/area/ship/engineering/engine)
 "HD" = (
 /obj/machinery/door/airlock/medical,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -4014,6 +3997,7 @@
 /obj/machinery/door/airlock/public/glass/incinerator/atmos_exterior{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/locked,
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
 "JL" = (
@@ -4289,7 +4273,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ship/engineering)
+/area/ship/engineering/engine)
 "Lo" = (
 /obj/structure/chair/office{
 	dir = 1
@@ -4484,9 +4468,12 @@
 /turf/open/floor/plating,
 /area/ship/science/robotics)
 "MW" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
-/turf/template_noop,
-/area/template_noop)
+/obj/effect/turf_decal/corner/opaque/syndiered{
+	dir = 10
+	},
+/obj/machinery/ore_silo,
+/turf/open/floor/mineral/plastitanium,
+/area/ship/cargo)
 "MZ" = (
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
@@ -4515,8 +4502,14 @@
 /obj/machinery/atmospherics/pipe/simple/dark/hidden{
 	dir = 4
 	},
+/obj/machinery/button/ignition/incinerator/atmos{
+	dir = 4;
+	pixel_x = -20;
+	pixel_y = -3;
+	id = "andromeda_atmos_incinerator_igniter"
+	},
 /turf/open/floor/plating,
-/area/ship/engineering)
+/area/ship/engineering/engine)
 "Nj" = (
 /obj/machinery/atmospherics/pipe/manifold/orange/visible{
 	dir = 8
@@ -4549,10 +4542,12 @@
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
 	},
-/obj/machinery/computer/atmos_control/incinerator{
+/obj/machinery/computer/atmos_control/tank/mix_tank{
 	dir = 4;
-	sensors = list(""andromeda_incinerator_sensor""="Incinerator Chamber");
-	input_tag = "incinerator_in"
+	input_tag = "incinerator_in";
+	sensors = list("incinerator_sensor" = "Incinerator Chamber");
+	output_tag = "incinerator_out";
+	name = "Incinerator Chamber Control"
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
@@ -5162,7 +5157,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ship/engineering)
+/area/ship/engineering/engine)
 "Tg" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 5
@@ -5625,6 +5620,14 @@
 "WR" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/crew/toilet)
+"WT" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
 "WW" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 4
@@ -5746,7 +5749,7 @@
 	name = "Propulsor 2"
 	})
 "XV" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/incinerator_output{
 	dir = 4
 	},
 /turf/open/floor/engine,
@@ -5996,7 +5999,7 @@
 	})
 "ZQ" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/air_input,
-/turf/open/floor/engine,
+/turf/open/floor/engine/air,
 /area/ship/engineering/atmospherics)
 "ZS" = (
 /obj/structure/chair{
@@ -6030,7 +6033,7 @@ zl
 zl
 zl
 zl
-MW
+zl
 Fb
 iR
 iR
@@ -6221,11 +6224,11 @@ Sr
 Ig
 dX
 gC
-Fw
-Fw
-Fw
-Fw
-Fw
+zl
+zl
+zl
+zl
+zl
 gC
 gC
 Ig
@@ -6421,7 +6424,7 @@ rj
 Dt
 ij
 Ni
-Kr
+WT
 Lh
 Fc
 Kr
@@ -6456,7 +6459,7 @@ gc
 Tc
 ir
 HA
-nl
+tS
 nl
 Cx
 WG
@@ -6946,9 +6949,9 @@ Dl
 uG
 qQ
 MD
-tS
-gq
-DX
+qQ
+Fw
+qQ
 MD
 oh
 Yy
@@ -7284,7 +7287,7 @@ Gb
 xv
 ZH
 lg
-Ei
+MW
 xv
 xv
 xv
