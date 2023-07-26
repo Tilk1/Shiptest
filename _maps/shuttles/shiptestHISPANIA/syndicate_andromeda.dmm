@@ -202,6 +202,13 @@
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/electrical,
 /obj/item/storage/toolbox/syndicate,
+/obj/machinery/button/door{
+	dir = 4;
+	id = "andromeda_2_engine_shutter";
+	name = "Shutter Control";
+	pixel_x = -21;
+	pixel_y = -2
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering{
 	name = "Propulsor 2"
@@ -2390,8 +2397,8 @@
 	dir = 4
 	},
 /obj/structure/table,
-/obj/item/modular_computer/laptop,
 /obj/machinery/firealarm/directional/east,
+/obj/item/modular_computer/laptop/preset/civilian,
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
 "wh" = (
@@ -4515,13 +4522,6 @@
 /obj/machinery/camera/autoname{
 	dir = 9
 	},
-/obj/machinery/button/door{
-	dir = 8;
-	id = "andromeda_1_engine_shutter";
-	name = "Shutter Control";
-	pixel_x = 21;
-	pixel_y = -2
-	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering{
 	name = "Propulsor 1"
@@ -4817,6 +4817,13 @@
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/electrical,
 /obj/item/storage/toolbox/syndicate,
+/obj/machinery/button/door{
+	dir = 4;
+	id = "andromeda_1_engine_shutter";
+	name = "Shutter Control";
+	pixel_x = -21;
+	pixel_y = -2
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering{
 	name = "Propulsor 1"
@@ -5603,19 +5610,6 @@
 "WR" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/crew/toilet)
-"WT" = (
-/obj/machinery/button/door{
-	dir = 4;
-	id = "andromeda_2_engine_shutter";
-	name = "Shutter Control";
-	pixel_x = -21;
-	pixel_y = -2
-	},
-/obj/structure/closet/crate,
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
 "WW" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible{
 	dir = 4
@@ -6095,7 +6089,7 @@ ch
 dW
 dW
 dW
-WT
+Ci
 TZ
 "}
 (4,1,1) = {"
