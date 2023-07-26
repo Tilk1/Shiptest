@@ -691,14 +691,18 @@
 /turf/open/floor/engine/plasma,
 /area/ship/engineering/atmospherics)
 "gn" = (
-/obj/machinery/suit_storage_unit/syndicate,
-/obj/item/clothing/shoes/magboots/syndie{
-	pixel_x = -6;
-	pixel_y = -5
-	},
 /obj/effect/turf_decal/corner/opaque/syndiered/three_quarters{
 	dir = 1
 	},
+/obj/structure/table/reinforced,
+/obj/item/gps{
+	pixel_x = 12
+	},
+/obj/item/gps{
+	pixel_x = -6;
+	pixel_y = 2
+	},
+/obj/item/gps,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
 "gq" = (
@@ -4065,6 +4069,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor/heavy,
+/obj/effect/mapping_helpers/airlock/locked,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "JS" = (
@@ -4546,7 +4551,8 @@
 	},
 /obj/machinery/computer/atmos_control/incinerator{
 	dir = 4;
-	sensors = list("nemo_incinerator_sensor"="Incinerator Chamber")
+	sensors = list(""andromeda_incinerator_sensor""="Incinerator Chamber");
+	input_tag = "incinerator_in"
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
@@ -4657,13 +4663,17 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/science/robotics)
 "OG" = (
-/obj/machinery/suit_storage_unit/syndicate,
 /obj/item/clothing/shoes/magboots/syndie{
 	pixel_x = -6;
 	pixel_y = -5
 	},
 /obj/effect/turf_decal/corner/opaque/syndiered{
 	dir = 9
+	},
+/obj/machinery/suit_storage_unit/inherit,
+/obj/item/clothing/suit/space/hardsuit/syndi/scarlet,
+/obj/item/clothing/mask/gas/syndicate{
+	pixel_x = -4
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
@@ -5060,6 +5070,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor/heavy,
+/obj/effect/mapping_helpers/airlock/locked,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
 "SA" = (
@@ -5321,13 +5332,17 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "Us" = (
-/obj/machinery/suit_storage_unit/syndicate,
 /obj/item/clothing/shoes/magboots/syndie{
 	pixel_x = -6;
 	pixel_y = -5
 	},
 /obj/effect/turf_decal/corner/opaque/syndiered/three_quarters{
 	dir = 4
+	},
+/obj/machinery/suit_storage_unit/inherit,
+/obj/item/clothing/suit/space/hardsuit/syndi/scarlet,
+/obj/item/clothing/mask/gas/syndicate{
+	pixel_x = -4
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
@@ -5655,7 +5670,8 @@
 /obj/structure/reagent_dispensers/fueltank{
 	anchored = 1
 	},
-/turf/open/floor/pod,
+/obj/effect/turf_decal/box,
+/turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
 "Xr" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
