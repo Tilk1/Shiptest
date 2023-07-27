@@ -19,6 +19,13 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
+"at" = (
+/obj/structure/catwalk,
+/obj/structure/marker_beacon{
+	picked_color = "Yellow"
+	},
+/turf/open/floor/plating/airless,
+/area/template_noop)
 "az" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
@@ -294,26 +301,14 @@
 /obj/effect/turf_decal/industrial/warning{
 	dir = 10
 	},
-/obj/item/ammo_box/magazine/m12g/small{
-	pixel_x = -5
-	},
-/obj/item/ammo_box/magazine/m12g/small{
-	pixel_x = -5
-	},
-/obj/item/ammo_box/magazine/m12g/small{
-	pixel_x = -5
-	},
-/obj/item/ammo_box/magazine/m12g/small{
-	pixel_x = -5
-	},
 /obj/item/storage/toolbox/ammo/shotgun{
 	pixel_x = -3;
 	pixel_y = 8
 	},
-/obj/item/storage/toolbox/ammo/shotgun{
-	pixel_x = -3;
-	pixel_y = 8
-	},
+/obj/item/ammo_box/magazine/m12g/slug,
+/obj/item/ammo_box/magazine/m12g/slug,
+/obj/item/ammo_box/magazine/m12g/slug,
+/obj/item/ammo_box/magazine/m12g/slug,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "cG" = (
@@ -1440,7 +1435,7 @@
 /turf/open/floor/engine/n2,
 /area/ship/engineering/atmospherics)
 "mZ" = (
-/obj/machinery/computer/camera_advanced,
+/obj/machinery/computer/security,
 /turf/open/floor/wood,
 /area/ship/bridge)
 "nd" = (
@@ -1747,13 +1742,13 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
 "pZ" = (
-/obj/machinery/computer/camera_advanced,
 /obj/effect/turf_decal/corner/opaque/syndiered{
 	dir = 5
 	},
 /obj/structure/sign/syndicate{
 	pixel_y = 30
 	},
+/obj/machinery/computer/security,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "qe" = (
@@ -1763,7 +1758,8 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "qm" = (
-/obj/machinery/rnd/production/protolathe/department/engineering,
+/obj/structure/frame/machine,
+/obj/item/circuitboard/machine/protolathe/department/engineering,
 /turf/open/floor/plasteel/dark,
 /area/ship/science/robotics)
 "qn" = (
@@ -1997,13 +1993,6 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
-"sO" = (
-/obj/structure/closet/crate,
-/obj/effect/spawner/lootdrop/maintenance/three,
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
 "sP" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /obj/effect/turf_decal/industrial/warning{
@@ -2861,7 +2850,6 @@
 /area/ship/bridge)
 "zX" = (
 /obj/structure/closet/crate,
-/obj/item/guardiancreator/choose,
 /obj/effect/spawner/lootdrop/maintenance/three,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering{
@@ -2989,6 +2977,17 @@
 /area/ship/engineering/atmospherics)
 "AK" = (
 /obj/structure/table/reinforced,
+/obj/item/radio{
+	desc = "An old handheld radio. You could use it, if you really wanted to.";
+	icon_state = "radio";
+	name = "old radio";
+	pixel_x = 2;
+	pixel_y = 9
+	},
+/obj/item/clothing/glasses/hud/security/night{
+	pixel_x = -4;
+	pixel_y = -6
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
 "AS" = (
@@ -3658,6 +3657,9 @@
 	port_direction = 8;
 	preferred_direction = 4
 	},
+/obj/structure/marker_beacon{
+	picked_color = "Yellow"
+	},
 /turf/open/floor/plating/airless,
 /area/ship/external/dark)
 "HA" = (
@@ -4043,6 +4045,13 @@
 /obj/machinery/jukebox,
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
+"Kg" = (
+/obj/structure/catwalk,
+/obj/structure/marker_beacon{
+	picked_color = "Yellow"
+	},
+/turf/open/floor/plating/airless,
+/area/ship/external/dark)
 "Kh" = (
 /obj/structure/table/wood,
 /obj/machinery/light/directional/south,
@@ -4599,18 +4608,12 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/science/robotics)
 "OG" = (
-/obj/item/clothing/shoes/magboots/syndie{
-	pixel_x = -6;
-	pixel_y = -5
-	},
 /obj/effect/turf_decal/corner/opaque/syndiered{
 	dir = 9
 	},
 /obj/machinery/suit_storage_unit/inherit,
-/obj/item/clothing/suit/space/hardsuit/syndi/scarlet,
-/obj/item/clothing/mask/gas/syndicate{
-	pixel_x = -4
-	},
+/obj/item/clothing/suit/space/hardsuit/mining/heavy,
+/obj/item/clothing/mask/gas/explorer,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
 "OH" = (
@@ -5146,7 +5149,28 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
 /area/ship/engineering)
-"TH" = (
+"TL" = (
+/obj/machinery/rnd/production/techfab/department/security,
+/obj/effect/turf_decal/industrial/warning{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/ship/security/armory)
+"TM" = (
+/obj/structure/closet/crate,
+/obj/item/guardiancreator/choose,
+/obj/effect/spawner/lootdrop/maintenance/three,
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering{
+	name = "Propulsor 1"
+	})
+"TN" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ship/bridge)
+"TQ" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable{
@@ -5157,19 +5181,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"TL" = (
-/obj/machinery/rnd/production/techfab/department/security,
-/obj/effect/turf_decal/industrial/warning{
-	dir = 5
-	},
-/turf/open/floor/mineral/plastitanium/red,
-/area/ship/security/armory)
-"TN" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
-	dir = 8
-	},
-/turf/open/floor/mineral/plastitanium,
-/area/ship/bridge)
 "TU" = (
 /obj/effect/turf_decal/corner/opaque/syndiered{
 	dir = 5
@@ -5256,18 +5267,9 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "Us" = (
-/obj/item/clothing/shoes/magboots/syndie{
-	pixel_x = -6;
-	pixel_y = -5
-	},
-/obj/effect/turf_decal/corner/opaque/syndiered/three_quarters{
-	dir = 4
-	},
 /obj/machinery/suit_storage_unit/inherit,
-/obj/item/clothing/suit/space/hardsuit/syndi/scarlet,
-/obj/item/clothing/mask/gas/syndicate{
-	pixel_x = -4
-	},
+/obj/item/clothing/suit/space/hardsuit/mining/heavy,
+/obj/item/clothing/mask/gas/explorer,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
 "Uu" = (
@@ -5936,7 +5938,7 @@
 /area/ship/hallway/central)
 
 (1,1,1) = {"
-zl
+at
 La
 iR
 iR
@@ -5966,7 +5968,7 @@ iR
 iR
 iR
 Fb
-zl
+at
 "}
 (2,1,1) = {"
 ss
@@ -6003,7 +6005,7 @@ TZ
 "}
 (3,1,1) = {"
 ss
-sO
+zX
 HX
 HX
 HX
@@ -6012,7 +6014,7 @@ HX
 HX
 HX
 rx
-gC
+Kg
 zl
 zl
 zl
@@ -6022,7 +6024,7 @@ zl
 zl
 zl
 zl
-gC
+Kg
 Qd
 dW
 dW
@@ -6036,7 +6038,7 @@ TZ
 "}
 (4,1,1) = {"
 ss
-zX
+TM
 ZP
 ux
 ux
@@ -6079,7 +6081,7 @@ JV
 YQ
 rx
 gC
-gC
+Kg
 zl
 zl
 zl
@@ -6087,7 +6089,7 @@ zl
 zl
 zl
 zl
-gC
+Kg
 gC
 Qd
 pd
@@ -6146,13 +6148,13 @@ sY
 Sr
 Ig
 dX
-gC
+Kg
 zl
 zl
 zl
 zl
 zl
-gC
+Kg
 gC
 Ig
 wv
@@ -6332,7 +6334,7 @@ VH
 zl
 "}
 (13,1,1) = {"
-gC
+Kg
 GU
 OM
 OM
@@ -6347,7 +6349,7 @@ rj
 Dt
 ij
 Ni
-TH
+TQ
 Lh
 WT
 Kr
@@ -6822,7 +6824,7 @@ Vk
 Vk
 Vk
 Vk
-gC
+Kg
 zl
 zl
 "}
@@ -6830,7 +6832,7 @@ zl
 zl
 zl
 zl
-gC
+Kg
 Dl
 GO
 FA
@@ -7428,7 +7430,7 @@ zl
 zl
 zl
 zl
-gC
+Kg
 zl
 EL
 EQ
@@ -7541,7 +7543,7 @@ zl
 zl
 zl
 zl
-gC
+Kg
 zl
 zl
 zl
