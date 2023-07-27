@@ -289,10 +289,7 @@
 /obj/machinery/camera/autoname{
 	dir = 10
 	},
-/obj/structure/displaycase/captain{
-	req_access = null;
-	req_access_txt = "20"
-	},
+/obj/structure/displaycase,
 /turf/open/floor/wood,
 /area/ship/bridge)
 "cE" = (
@@ -300,13 +297,28 @@
 	dir = 5
 	},
 /obj/structure/rack,
-/obj/item/ammo_box/magazine/m10mm,
-/obj/item/ammo_box/magazine/m10mm,
-/obj/item/storage/toolbox/ammo/c10mm,
-/obj/item/ammo_box/magazine/smgm45,
-/obj/item/ammo_box/magazine/smgm45,
 /obj/effect/turf_decal/industrial/warning{
 	dir = 10
+	},
+/obj/item/ammo_box/magazine/m12g/small{
+	pixel_x = -5
+	},
+/obj/item/ammo_box/magazine/m12g/small{
+	pixel_x = -5
+	},
+/obj/item/ammo_box/magazine/m12g/small{
+	pixel_x = -5
+	},
+/obj/item/ammo_box/magazine/m12g/small{
+	pixel_x = -5
+	},
+/obj/item/storage/toolbox/ammo/shotgun{
+	pixel_x = -3;
+	pixel_y = 8
+	},
+/obj/item/storage/toolbox/ammo/shotgun{
+	pixel_x = -3;
+	pixel_y = 8
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
@@ -1777,12 +1789,7 @@
 	dir = 8
 	},
 /obj/structure/rack,
-/obj/item/ammo_box/magazine/m10mm,
-/obj/item/ammo_box/magazine/m10mm,
 /obj/machinery/light/directional/south,
-/obj/item/storage/toolbox/ammo/c45,
-/obj/item/ammo_box/magazine/smgm45,
-/obj/item/ammo_box/magazine/smgm45,
 /obj/effect/turf_decal/industrial/warning,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
@@ -3639,6 +3646,8 @@
 /obj/effect/turf_decal/industrial/warning{
 	dir = 6
 	},
+/obj/item/ammo_box/magazine/m10mm,
+/obj/item/ammo_box/magazine/m10mm,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "Gq" = (
@@ -4412,12 +4421,12 @@
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
 "Mm" = (
-/obj/machinery/vending/security/marine/syndicate{
-	all_items_free = 5
-	},
 /obj/effect/turf_decal/industrial/warning{
 	dir = 9
 	},
+/obj/structure/guncase,
+/obj/item/gun/ballistic/shotgun/bulldog/unrestricted,
+/obj/item/gun/ballistic/shotgun/bulldog/unrestricted,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "Mx" = (
@@ -4881,13 +4890,13 @@
 /obj/structure/safe,
 /obj/item/disk/nuclear,
 /obj/item/dualsaber/red,
-/obj/item/storage/box/syndie_kit/guardian,
+/obj/machinery/camera/autoname{
+	dir = 1
+	},
+/obj/item/guardiancreator/choose,
 /obj/item/areaeditor/shuttle{
 	pixel_x = -1;
 	pixel_y = -1
-	},
-/obj/machinery/camera/autoname{
-	dir = 1
 	},
 /turf/open/floor/engine,
 /area/ship/bridge)
@@ -5651,6 +5660,9 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/structure/fireaxecabinet{
+	pixel_y = 32
+	},
 /turf/open/floor/plating,
 /area/ship/engineering)
 "Xb" = (
@@ -5954,8 +5966,6 @@
 /obj/structure/guncase,
 /obj/item/gun/ballistic/automatic/pistol,
 /obj/item/gun/ballistic/automatic/pistol,
-/obj/item/gun/ballistic/automatic/smg/c20r,
-/obj/item/gun/ballistic/automatic/smg/c20r,
 /obj/machinery/camera/autoname{
 	dir = 6
 	},
