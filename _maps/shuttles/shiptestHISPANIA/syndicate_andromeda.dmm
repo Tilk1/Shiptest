@@ -77,7 +77,7 @@
 /area/ship/bridge)
 "aH" = (
 /obj/structure/closet/secure_closet/engineering_personal,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "aI" = (
 /obj/machinery/air_sensor/atmos/air_tank,
@@ -218,7 +218,7 @@
 	dir = 4
 	},
 /obj/machinery/light/directional/south,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "cl" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -471,6 +471,9 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering{
 	name = "Propulsor 2"
@@ -571,7 +574,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{
 	dir = 4
 	},
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "eX" = (
 /obj/machinery/light/directional/south,
@@ -892,7 +895,7 @@
 /area/ship/cargo)
 "hS" = (
 /obj/structure/closet/secure_closet/engineering_welding,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "hZ" = (
 /obj/machinery/airalarm/directional/east,
@@ -1204,7 +1207,7 @@
 /turf/open/floor/wood,
 /area/ship/bridge)
 "kF" = (
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "kI" = (
 /obj/structure/cable{
@@ -1995,7 +1998,7 @@
 	dir = 1
 	},
 /obj/machinery/light/directional/south,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "su" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
@@ -2230,7 +2233,7 @@
 /obj/item/clothing/shoes/magboots,
 /obj/machinery/light/directional/north,
 /obj/machinery/suit_storage_unit/inherit,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "uW" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -2507,7 +2510,7 @@
 	},
 /obj/machinery/light/directional/north,
 /obj/machinery/airalarm/directional/north,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "wZ" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
@@ -2617,7 +2620,7 @@
 "xQ" = (
 /obj/machinery/suit_storage_unit/industrial/atmos_firesuit,
 /obj/machinery/light/directional/north,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "ya" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible{
@@ -2765,7 +2768,7 @@
 /obj/item/clothing/mask/breath,
 /obj/item/clothing/shoes/magboots,
 /obj/machinery/suit_storage_unit/inherit,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "yY" = (
 /obj/structure/cable{
@@ -2868,7 +2871,7 @@
 /area/ship/engineering/engine)
 "zI" = (
 /obj/machinery/suit_storage_unit/industrial/atmos_firesuit,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "zL" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -3787,6 +3790,9 @@
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering{
 	name = "Propulsor 1"
@@ -3882,7 +3888,7 @@
 /obj/machinery/atmospherics/components/binary/pump/layer4{
 	dir = 8
 	},
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "IN" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
@@ -4230,7 +4236,7 @@
 /area/ship/bridge)
 "KQ" = (
 /obj/structure/tank_dispenser,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "KU" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
@@ -4911,7 +4917,7 @@
 	pixel_y = -3
 	},
 /obj/item/storage/toolbox/syndicate,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "Ru" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -5014,7 +5020,7 @@
 "Sa" = (
 /obj/structure/closet/secure_closet/engineering_personal,
 /obj/machinery/light/directional/south,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "Sb" = (
 /obj/machinery/door/airlock{
@@ -5394,7 +5400,7 @@
 "UO" = (
 /obj/structure/closet/secure_closet/engineering_electrical,
 /obj/machinery/light/directional/north,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "UT" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -5427,7 +5433,7 @@
 /area/ship/medical)
 "Vb" = (
 /obj/machinery/vending/engivend,
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "Ve" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible{
@@ -5634,6 +5640,9 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/structure/cable{
 	icon_state = "1-2"
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
