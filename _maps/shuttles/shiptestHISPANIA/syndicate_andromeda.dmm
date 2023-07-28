@@ -291,6 +291,11 @@
 	dir = 10
 	},
 /obj/structure/displaycase,
+/obj/item/melee/sabre/solgov{
+	name = "duel sabre";
+	desc = "The NSV shares a stringent moral ruleset with all other SolCon Student Associations, requiring members to uphold and defend their honor in duels if challenged or slighted. NSV members are rarely seen without a blade and are well-drilled in the basic moves of academic fencing (which lacks any practical combat application in the modern day).";
+	block_chance = 30
+	},
 /turf/open/floor/wood,
 /area/ship/bridge)
 "cE" = (
@@ -432,6 +437,18 @@
 /obj/item/reagent_containers/food/drinks/bottle/whiskey,
 /turf/open/floor/wood,
 /area/ship/crew/canteen)
+"dR" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/visible{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/engineering{
+	name = "Propulsor 2"
+	})
 "dV" = (
 /obj/machinery/atmospherics/components/binary/pump{
 	name = "Phoron to Mix"
@@ -473,6 +490,7 @@
 /obj/structure/sign/warning/biohazard{
 	pixel_x = -30
 	},
+/obj/structure/rack,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "ed" = (
@@ -605,7 +623,9 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
 "ft" = (
-/obj/machinery/door/window/northleft,
+/obj/machinery/door/window/northleft{
+	dir = 2
+	},
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
 "fy" = (
@@ -782,21 +802,27 @@
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
+"gY" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window/eastright{
+	name = "Engine Access"
+	},
+/obj/machinery/door/poddoor{
+	dir = 4;
+	id = "andromeda_1_engine_shutter"
+	},
+/obj/machinery/atmospherics/components/unary/shuttle/heater{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering{
+	name = "Propulsor 1"
+	})
 "hd" = (
 /obj/structure/rack,
 /obj/machinery/power/apc/auto_name/directional/north,
-/obj/item/clothing/glasses/night{
-	pixel_x = 2;
-	pixel_y = 1
-	},
-/obj/item/clothing/glasses/night{
-	pixel_x = 2;
-	pixel_y = 1
-	},
-/obj/item/clothing/glasses/night{
-	pixel_x = 2;
-	pixel_y = 1
-	},
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
@@ -1114,6 +1140,14 @@
 "jP" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/security/armory)
+"jT" = (
+/obj/machinery/atmospherics/components/binary/valve/digital{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering{
+	name = "Propulsor 2"
+	})
 "jY" = (
 /obj/structure/table/wood,
 /obj/item/instrument/piano_synth,
@@ -1224,6 +1258,8 @@
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 6
 	},
+/obj/structure/rack,
+/obj/item/organ/cyberimp/arm/toolset,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "lf" = (
@@ -1637,6 +1673,9 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "pd" = (
+/obj/machinery/atmospherics/components/unary/tank/toxins{
+	dir = 8
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering{
 	name = "Propulsor 2"
@@ -1759,7 +1798,7 @@
 /area/ship/bridge)
 "qm" = (
 /obj/structure/frame/machine,
-/obj/item/circuitboard/machine/protolathe/department/engineering,
+/obj/item/circuitboard/machine/protolathe/department/science,
 /turf/open/floor/plasteel/dark,
 /area/ship/science/robotics)
 "qn" = (
@@ -1863,6 +1902,7 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
+/obj/structure/window/reinforced,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "ro" = (
@@ -1900,8 +1940,6 @@
 /obj/item/gun/ballistic/derringer/traitor,
 /obj/item/clothing/under/syndicate/sniper,
 /obj/item/clothing/suit/aclf,
-/obj/item/ammo_box/a357,
-/obj/item/ammo_box/a357,
 /obj/item/radio/headset/syndicate/alt/leader,
 /turf/open/floor/wood,
 /area/ship/bridge)
@@ -1986,11 +2024,26 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
+"sy" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/binary/valve/digital{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/engineering{
+	name = "Propulsor 1"
+	})
 "sI" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 4
 	},
 /obj/machinery/light/directional/east,
+/obj/structure/rack,
+/obj/item/organ/stomach/cybernetic,
+/obj/item/organ/stomach/cybernetic/tier2,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "sP" = (
@@ -2119,6 +2172,15 @@
 /obj/structure/ore_box,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
+"un" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/shuttle/engine/fueled/plasma{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/external)
 "up" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
@@ -2158,6 +2220,7 @@
 	dir = 4
 	},
 /obj/machinery/airalarm/directional/west,
+/obj/structure/window/reinforced,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "uJ" = (
@@ -2339,6 +2402,8 @@
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 4
 	},
+/obj/structure/rack,
+/obj/item/organ/cyberimp/arm/surgery,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "wh" = (
@@ -2437,6 +2502,7 @@
 /area/ship/engineering/engine)
 "wQ" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line,
+/obj/structure/rack,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "wW" = (
@@ -2613,6 +2679,8 @@
 "yn" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line,
 /obj/machinery/light/directional/south,
+/obj/structure/rack,
+/obj/item/organ/cyberimp/arm/esword,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "yp" = (
@@ -2643,6 +2711,12 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
+"yx" = (
+/obj/machinery/power/shuttle/engine/fueled/plasma{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/external)
 "yz" = (
 /obj/machinery/portable_atmospherics/canister/toxins,
 /obj/machinery/light/directional/north,
@@ -3277,8 +3351,8 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/cargo)
 "Dh" = (
-/obj/machinery/rnd/production/circuit_imprinter/department/engi,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/machinery/rnd/production/circuit_imprinter/department/science,
 /turf/open/floor/plasteel/dark,
 /area/ship/science/robotics)
 "Dl" = (
@@ -3325,19 +3399,25 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "DE" = (
-/obj/structure/cable{
-	icon_state = "1-8"
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
 	},
-/obj/structure/cable{
-	icon_state = "1-2"
+/obj/structure/window/reinforced{
+	dir = 8
 	},
-/obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 1
+/obj/machinery/door/window/eastright{
+	name = "Engine Access"
 	},
-/turf/open/floor/plating,
+/obj/machinery/door/poddoor{
+	dir = 4;
+	id = "andromeda_2_engine_shutter"
+	},
+/obj/machinery/atmospherics/components/unary/shuttle/heater{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
 /area/ship/engineering{
-	name = "Propulsor 1"
+	name = "Propulsor 2"
 	})
 "DX" = (
 /obj/effect/turf_decal/industrial/warning{
@@ -4247,6 +4327,17 @@
 "Ls" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/engineering/communications)
+"Lv" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/visible{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering{
+	name = "Propulsor 1"
+	})
 "Lx" = (
 /obj/machinery/door/poddoor{
 	id = "andromeda_mech_blast_1"
@@ -4475,6 +4566,17 @@
 /area/ship/engineering{
 	name = "Propulsor 1"
 	})
+"Nn" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/visible{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering{
+	name = "Propulsor 2"
+	})
 "Ns" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -4552,6 +4654,9 @@
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 8
 	},
+/obj/structure/rack,
+/obj/item/organ/lungs/cybernetic/tier2,
+/obj/item/organ/lungs/cybernetic,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "Od" = (
@@ -4569,6 +4674,9 @@
 	},
 /obj/structure/cable{
 	icon_state = "1-4"
+	},
+/obj/machinery/door/window/northleft{
+	dir = 2
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
@@ -4664,6 +4772,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
+/obj/structure/window/reinforced,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "PA" = (
@@ -5773,6 +5882,12 @@
 /obj/effect/turf_decal/corner/opaque/syndiered{
 	dir = 1
 	},
+/obj/structure/displaycase,
+/obj/item/melee/sabre/solgov{
+	name = "duel sabre";
+	desc = "The NSV shares a stringent moral ruleset with all other SolCon Student Associations, requiring members to uphold and defend their honor in duels if challenged or slighted. NSV members are rarely seen without a blade and are well-drilled in the basic moves of academic fencing (which lacks any practical combat application in the modern day).";
+	block_chance = 30
+	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "Yy" = (
@@ -5798,6 +5913,9 @@
 	dir = 8
 	},
 /obj/machinery/light/directional/west,
+/obj/structure/rack,
+/obj/item/organ/heart/cybernetic,
+/obj/item/organ/heart/cybernetic/tier2,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
 "YP" = (
@@ -5807,6 +5925,9 @@
 "YQ" = (
 /obj/machinery/light/directional/east,
 /obj/machinery/firealarm/directional/east,
+/obj/machinery/atmospherics/components/unary/tank/toxins{
+	dir = 8
+	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering{
 	name = "Propulsor 1"
@@ -5946,7 +6067,7 @@ iR
 La
 iR
 iR
-iR
+yx
 La
 zl
 zl
@@ -5960,7 +6081,7 @@ zl
 zl
 zl
 Fb
-iR
+un
 iR
 iR
 Fb
@@ -5979,7 +6100,7 @@ BR
 La
 BR
 BR
-BR
+gY
 gM
 zl
 zl
@@ -5993,7 +6114,7 @@ zl
 zl
 zl
 Zw
-Wo
+DE
 Wo
 Wo
 Fb
@@ -6012,7 +6133,7 @@ HX
 QH
 HX
 HX
-HX
+Lv
 rx
 Kg
 zl
@@ -6026,7 +6147,7 @@ zl
 zl
 Kg
 Qd
-dW
+Nn
 dW
 dW
 ch
@@ -6044,8 +6165,8 @@ ux
 ux
 Zi
 KE
-DE
 cx
+sy
 nz
 rE
 zl
@@ -6059,8 +6180,8 @@ zl
 zl
 XI
 Wl
+dR
 yY
-Dy
 Dy
 lY
 BW
@@ -6092,7 +6213,7 @@ zl
 Kg
 gC
 Qd
-pd
+jT
 VX
 jz
 vd
