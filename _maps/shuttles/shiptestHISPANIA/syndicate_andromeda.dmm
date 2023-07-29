@@ -26,27 +26,6 @@
 	},
 /turf/open/floor/plating/airless,
 /area/template_noop)
-"au" = (
-/obj/structure/cable/yellow{
-	icon_state = "0-8"
-	},
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/door/window/eastright{
-	name = "Engine Access"
-	},
-/obj/machinery/door/poddoor{
-	dir = 4;
-	id = "andromeda_2_engine_shutter"
-	},
-/obj/machinery/atmospherics/components/unary/shuttle/heater{
-	dir = 4
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
 "az" = (
 /obj/machinery/atmospherics/pipe/simple/green/visible,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
@@ -587,6 +566,15 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
+"eY" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/shuttle/engine/fueled/plasma{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/external)
 "eZ" = (
 /obj/machinery/door/poddoor{
 	id = "andromeda_mech_blast_2"
@@ -618,35 +606,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
-"fp" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/orange/visible{
-	dir = 4
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
-"fq" = (
-/obj/structure/window/reinforced{
-	dir = 8
-	},
-/obj/machinery/door/window/eastright{
-	name = "Engine Access"
-	},
-/obj/machinery/door/poddoor{
-	dir = 4;
-	id = "andromeda_1_engine_shutter"
-	},
-/obj/machinery/atmospherics/components/unary/shuttle/heater{
-	dir = 4
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
 "fs" = (
 /obj/structure/cable{
 	icon_state = "0-2"
@@ -1334,6 +1293,27 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
+"lw" = (
+/obj/structure/cable/yellow{
+	icon_state = "0-8"
+	},
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window/eastright{
+	name = "Engine Access"
+	},
+/obj/machinery/door/poddoor{
+	dir = 4;
+	id = "andromeda_2_engine_shutter"
+	},
+/obj/machinery/atmospherics/components/unary/shuttle/heater{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering{
+	name = "Propulsor 2"
+	})
 "ly" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 6
@@ -1430,12 +1410,6 @@
 	},
 /turf/open/floor/plasteel/white,
 /area/ship/medical)
-"mh" = (
-/obj/machinery/power/shuttle/engine/fueled/plasma{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/ship/external)
 "mk" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
@@ -1486,6 +1460,18 @@
 /obj/effect/turf_decal/atmos/nitrogen,
 /turf/open/floor/engine/n2,
 /area/ship/engineering/atmospherics)
+"mS" = (
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/binary/valve/digital{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/ship/engineering{
+	name = "Propulsor 1"
+	})
 "mZ" = (
 /obj/machinery/computer/security,
 /turf/open/floor/wood,
@@ -2014,14 +2000,6 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
-"sg" = (
-/obj/machinery/atmospherics/components/unary/tank/toxins{
-	dir = 8
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
 "ss" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/ship/engineering{
@@ -2058,6 +2036,17 @@
 /obj/item/organ/stomach/cybernetic/tier2,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
+"sK" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/visible{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering{
+	name = "Propulsor 1"
+	})
 "sP" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /obj/effect/turf_decal/industrial/warning{
@@ -2389,18 +2378,6 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/science/robotics)
-"wa" = (
-/obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/orange/visible{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
 "wc" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -2862,6 +2839,16 @@
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
+"zq" = (
+/obj/effect/turf_decal/corner/opaque/syndiered{
+	dir = 9
+	},
+/obj/machinery/suit_storage_unit/inherit,
+/obj/item/clothing/suit/space/hardsuit/mining/heavy,
+/obj/item/clothing/mask/gas/explorer,
+/obj/item/clothing/suit/space/hardsuit/mining,
+/turf/open/floor/mineral/plastitanium,
+/area/ship/cargo)
 "zw" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -3408,17 +3395,11 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "DE" = (
-/obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 1
-	},
-/obj/machinery/atmospherics/components/binary/valve/digital{
+/obj/machinery/power/shuttle/engine/fueled/plasma{
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/external)
 "DX" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
@@ -3567,6 +3548,14 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
+"Fl" = (
+/obj/machinery/atmospherics/components/unary/tank/toxins{
+	dir = 8
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering{
+	name = "Propulsor 2"
+	})
 "Fm" = (
 /obj/structure/chair/stool/bar{
 	dir = 8
@@ -3609,6 +3598,24 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
+"FL" = (
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/obj/machinery/door/window/eastright{
+	name = "Engine Access"
+	},
+/obj/machinery/door/poddoor{
+	dir = 4;
+	id = "andromeda_1_engine_shutter"
+	},
+/obj/machinery/atmospherics/components/unary/shuttle/heater{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering{
+	name = "Propulsor 1"
+	})
 "FP" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -3622,6 +3629,17 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
 /area/ship/science/robotics)
+"FV" = (
+/obj/effect/turf_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/orange/visible{
+	dir = 4
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering{
+	name = "Propulsor 2"
+	})
 "FX" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
 	dir = 6
@@ -4354,15 +4372,6 @@
 /obj/machinery/autolathe/hacked,
 /turf/open/floor/plasteel/dark,
 /area/ship/science/robotics)
-"LK" = (
-/obj/structure/cable/yellow{
-	icon_state = "0-4"
-	},
-/obj/machinery/power/shuttle/engine/fueled/plasma{
-	dir = 4
-	},
-/turf/open/floor/plating,
-/area/ship/external)
 "LO" = (
 /obj/machinery/light/directional/north,
 /obj/machinery/camera/autoname,
@@ -4458,7 +4467,6 @@
 	dir = 9
 	},
 /obj/structure/guncase,
-/obj/item/gun/ballistic/shotgun/bulldog/unrestricted,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "Mx" = (
@@ -4763,16 +4771,6 @@
 /obj/structure/window/reinforced,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
-"Pv" = (
-/obj/effect/turf_decal/corner/opaque/syndiered{
-	dir = 9
-	},
-/obj/machinery/suit_storage_unit/inherit,
-/obj/item/clothing/suit/space/hardsuit/mining/heavy,
-/obj/item/clothing/mask/gas/explorer,
-/obj/item/clothing/suit/space/hardsuit/mining,
-/turf/open/floor/mineral/plastitanium,
-/area/ship/cargo)
 "PA" = (
 /obj/machinery/computer/communications{
 	dir = 8
@@ -5264,13 +5262,14 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "TM" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 8
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
 	dir = 4
 	},
-/turf/open/floor/plasteel/tech,
+/turf/open/floor/plating,
 /area/ship/engineering{
 	name = "Propulsor 2"
 	})
@@ -6068,7 +6067,7 @@ iR
 La
 iR
 iR
-mh
+DE
 La
 zl
 zl
@@ -6082,7 +6081,7 @@ zl
 zl
 zl
 Fb
-LK
+eY
 iR
 iR
 Fb
@@ -6101,7 +6100,7 @@ BR
 La
 BR
 BR
-fq
+FL
 gM
 zl
 zl
@@ -6115,7 +6114,7 @@ zl
 zl
 zl
 Zw
-au
+lw
 Wo
 Wo
 Fb
@@ -6134,7 +6133,7 @@ HX
 QH
 HX
 HX
-fp
+sK
 rx
 Kg
 zl
@@ -6148,7 +6147,7 @@ zl
 zl
 Kg
 Qd
-TM
+FV
 dW
 dW
 ch
@@ -6167,7 +6166,7 @@ ux
 Zi
 KE
 cx
-DE
+mS
 nz
 rE
 zl
@@ -6181,7 +6180,7 @@ zl
 zl
 XI
 Wl
-wa
+TM
 yY
 Dy
 lY
@@ -6247,7 +6246,7 @@ zl
 gC
 ZO
 Zw
-sg
+Fl
 Zw
 Zw
 Mc
@@ -7135,7 +7134,7 @@ xB
 Tx
 xv
 Us
-Pv
+zq
 OG
 gn
 Xh
