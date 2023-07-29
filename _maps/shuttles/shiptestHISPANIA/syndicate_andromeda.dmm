@@ -306,12 +306,6 @@
 /obj/effect/turf_decal/industrial/warning{
 	dir = 10
 	},
-/obj/item/storage/toolbox/ammo/shotgun{
-	pixel_x = -3;
-	pixel_y = 8
-	},
-/obj/item/ammo_box/magazine/m12g/slug,
-/obj/item/ammo_box/magazine/m12g/slug,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "cG" = (
@@ -2839,16 +2833,6 @@
 /obj/machinery/door/airlock/hatch,
 /turf/open/floor/plasteel/tech,
 /area/ship/medical)
-"zq" = (
-/obj/effect/turf_decal/corner/opaque/syndiered{
-	dir = 9
-	},
-/obj/machinery/suit_storage_unit/inherit,
-/obj/item/clothing/suit/space/hardsuit/mining/heavy,
-/obj/item/clothing/mask/gas/explorer,
-/obj/item/clothing/suit/space/hardsuit/mining,
-/turf/open/floor/mineral/plastitanium,
-/area/ship/cargo)
 "zw" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -5255,10 +5239,10 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "TL" = (
-/obj/machinery/rnd/production/techfab/department/security,
 /obj/effect/turf_decal/industrial/warning{
 	dir = 5
 	},
+/obj/structure/frame/machine,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "TM" = (
@@ -7134,7 +7118,7 @@ xB
 Tx
 xv
 Us
-zq
+OG
 OG
 gn
 Xh
