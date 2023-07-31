@@ -94,9 +94,7 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "aV" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 1
@@ -116,12 +114,6 @@
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
-"ba" = (
-/obj/machinery/light/directional/east,
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
 "bf" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -190,9 +182,7 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "bT" = (
 /obj/machinery/computer/atmos_control/tank/air_tank{
 	dir = 1
@@ -211,9 +201,7 @@
 	pixel_y = -2
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "ck" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 4
@@ -277,9 +265,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "cy" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -452,9 +438,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "dX" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/on/layer4{
 	dir = 4;
@@ -761,12 +745,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
-"gK" = (
-/obj/structure/reagent_dispensers/plumbed,
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
 "gL" = (
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/machinery/atmospherics/pipe/layer_manifold,
@@ -979,9 +957,7 @@
 	can_be_unanchored = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "iN" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -1086,9 +1062,7 @@
 "jz" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "jD" = (
 /obj/structure/sign/warning/chemdiamond,
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
@@ -1191,9 +1165,7 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "kJ" = (
 /obj/structure/cable{
 	icon_state = "1-2"
@@ -1305,9 +1277,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "ly" = (
 /obj/effect/turf_decal/industrial/warning{
 	dir = 6
@@ -1390,9 +1360,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "mc" = (
 /obj/effect/turf_decal/trimline/opaque/syndiered/filled/line{
 	dir = 1
@@ -1425,9 +1393,7 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "mr" = (
 /obj/structure/bed,
 /obj/item/bedsheet/syndie,
@@ -1447,9 +1413,7 @@
 "mC" = (
 /obj/structure/reagent_dispensers/fueltank,
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "mM" = (
 /obj/effect/turf_decal/atmos/nitrogen,
 /turf/open/floor/engine/n2,
@@ -1463,9 +1427,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "mZ" = (
 /obj/machinery/computer/security,
 /turf/open/floor/wood,
@@ -1517,9 +1479,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "nD" = (
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
@@ -1673,9 +1633,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "pg" = (
 /obj/machinery/atmospherics/components/binary/dp_vent_pump/high_volume/layer2,
 /turf/open/floor/engine,
@@ -1950,9 +1908,7 @@
 	name = "Window Shield"
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "rC" = (
 /obj/structure/table/optable,
 /turf/open/floor/plasteel/dark,
@@ -1964,9 +1920,7 @@
 	},
 /obj/structure/catwalk,
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "rJ" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 5
@@ -1994,11 +1948,6 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/plasteel/tech,
 /area/ship/hallway/central)
-"ss" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
 "st" = (
 /obj/machinery/computer/apc_control{
 	dir = 1
@@ -2038,9 +1987,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "sP" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /obj/effect/turf_decal/industrial/warning{
@@ -2132,9 +2079,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "uc" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
 /obj/machinery/light/directional/west,
@@ -2188,9 +2133,7 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "uG" = (
 /obj/machinery/airalarm/directional/north,
 /obj/effect/turf_decal/industrial/warning{
@@ -2234,12 +2177,6 @@
 /obj/item/clothing/suit/space/hardsuit/engine,
 /turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
-"uW" = (
-/obj/structure/reagent_dispensers/fueltank,
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
 "vc" = (
 /obj/machinery/computer/cargo/express{
 	dir = 8
@@ -2258,9 +2195,7 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "ve" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -2774,9 +2709,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "zb" = (
 /obj/structure/bed,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2902,13 +2835,6 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/plasteel/tech,
 /area/ship/bridge)
-"zX" = (
-/obj/structure/closet/crate,
-/obj/effect/spawner/lootdrop/maintenance/three,
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
 "Aa" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
@@ -3135,9 +3061,7 @@
 	id = "andromeda_1_engine_shutter"
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "BU" = (
 /obj/machinery/advanced_airlock_controller/internal{
 	pixel_y = -24
@@ -3159,9 +3083,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "BX" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible{
 	dir = 4
@@ -3199,9 +3121,7 @@
 /obj/structure/closet/crate,
 /obj/effect/spawner/lootdrop/maintenance/three,
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "Cl" = (
 /obj/structure/cable{
 	icon_state = "0-1"
@@ -3279,9 +3199,7 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "CP" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -3369,9 +3287,7 @@
 	dir = 1
 	},
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "DB" = (
 /obj/effect/turf_decal/corner/opaque/syndiered{
 	dir = 10
@@ -3398,9 +3314,7 @@
 "Ec" = (
 /obj/machinery/airalarm/directional/east,
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "Ef" = (
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/industrial/outline/yellow,
@@ -3506,9 +3420,7 @@
 /area/ship/engineering)
 "Fb" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "Fd" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -3537,9 +3449,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "Fm" = (
 /obj/structure/chair/stool/bar{
 	dir = 8
@@ -3597,9 +3507,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "FP" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
@@ -3613,17 +3521,6 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
 /area/ship/science/robotics)
-"FV" = (
-/obj/effect/turf_decal/industrial/warning{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/orange/visible{
-	dir = 4
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
 "FX" = (
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
 	dir = 6
@@ -3800,20 +3697,6 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
-"HX" = (
-/obj/machinery/power/terminal{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
-/obj/effect/turf_decal/industrial/warning{
-	dir = 8
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
 "Ic" = (
 /obj/machinery/sleeper/syndie{
 	dir = 8
@@ -4115,12 +3998,6 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
-"JV" = (
-/obj/machinery/airalarm/directional/east,
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
 "Ka" = (
 /obj/effect/turf_decal/atmos/plasma,
 /turf/open/floor/engine/plasma,
@@ -4208,9 +4085,7 @@
 /area/ship/bridge)
 "KA" = (
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "KE" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 4
@@ -4229,9 +4104,7 @@
 	dir = 8
 	},
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "KK" = (
 /obj/machinery/atmospherics/components/trinary/filter/atmos/flipped/n2{
 	dir = 8
@@ -4283,11 +4156,6 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/crew/cryo)
-"La" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
 "Lg" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/incinerator_input{
 	dir = 4
@@ -4432,9 +4300,7 @@
 	icon_state = "4-8"
 	},
 /turf/open/floor/mineral/plastitanium,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "Md" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
@@ -4554,9 +4420,7 @@
 	dir = 9
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "Ns" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -4817,9 +4681,7 @@
 	name = "Window Shield"
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "Qm" = (
 /obj/machinery/telecomms/hub{
 	autolinkers = list("hub","bus","relay","messaging","inteq","common","broadcasterB","receiverB");
@@ -4863,9 +4725,7 @@
 	pixel_y = -2
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "QL" = (
 /obj/machinery/vending/boozeomat,
 /turf/open/floor/wood,
@@ -5254,9 +5114,7 @@
 	dir = 4
 	},
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "TN" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 8
@@ -5281,11 +5139,6 @@
 /obj/machinery/computer/helm/viewscreen/directional/north,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
-"TZ" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
 "Uc" = (
 /obj/machinery/camera/autoname{
 	dir = 5
@@ -5506,9 +5359,7 @@
 	},
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "Wf" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
@@ -5540,9 +5391,7 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "Wo" = (
 /obj/machinery/power/smes/shuttle/precharged{
 	dir = 4
@@ -5561,9 +5410,7 @@
 	id = "andromeda_2_engine_shutter"
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "Wu" = (
 /obj/structure/cable{
 	icon_state = "2-4"
@@ -5683,9 +5530,7 @@
 "Xb" = (
 /obj/structure/reagent_dispensers/plumbed,
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "Xc" = (
 /obj/machinery/computer/communications{
 	dir = 8
@@ -5744,9 +5589,7 @@
 /obj/structure/catwalk,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /turf/open/floor/plating/airless,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "XN" = (
 /obj/machinery/firealarm/directional/south,
 /turf/open/floor/plasteel/tech,
@@ -5772,9 +5615,7 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "XV" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/incinerator_output{
 	dir = 4
@@ -5913,9 +5754,7 @@
 	dir = 8
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "YS" = (
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable{
@@ -5947,9 +5786,7 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "Zm" = (
 /obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/plasteel/stairs,
@@ -5977,11 +5814,6 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
-"Zw" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
 "Zx" = (
 /obj/structure/guncase,
 /obj/item/gun/ballistic/automatic/pistol,
@@ -6001,9 +5833,7 @@
 	},
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 2"
-	})
+/area/ship/engineering)
 "ZH" = (
 /obj/item/radio/intercom/directional/north,
 /obj/effect/turf_decal/corner/opaque/syndiered{
@@ -6024,9 +5854,7 @@
 	icon_state = "2-4"
 	},
 /turf/open/floor/plating,
-/area/ship/engineering{
-	name = "Propulsor 1"
-	})
+/area/ship/engineering)
 "ZQ" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/atmos/air_input,
 /turf/open/floor/engine/air,
@@ -6044,15 +5872,15 @@
 
 (1,1,1) = {"
 at
-La
+Fb
 iR
 iR
 iR
-La
+Fb
 iR
 iR
 DE
-La
+Fb
 zl
 zl
 zl
@@ -6076,16 +5904,16 @@ Fb
 at
 "}
 (2,1,1) = {"
-ss
-gM
+Ig
+bH
 BR
 BR
 BR
-La
+Fb
 BR
 BR
 FL
-gM
+bH
 zl
 zl
 zl
@@ -6097,7 +5925,7 @@ zl
 zl
 zl
 zl
-Zw
+bH
 lw
 Wo
 Wo
@@ -6105,18 +5933,18 @@ Fb
 Wo
 Wo
 Wo
-Zw
-TZ
+bH
+Ig
 "}
 (3,1,1) = {"
-ss
-zX
-HX
-HX
-HX
+Ig
+Ci
+dW
+dW
+dW
 QH
-HX
-HX
+dW
+dW
 sK
 rx
 Kg
@@ -6131,7 +5959,7 @@ zl
 zl
 Kg
 Qd
-FV
+sK
 dW
 dW
 ch
@@ -6139,11 +5967,11 @@ dW
 dW
 dW
 Ci
-TZ
+Ig
 "}
 (4,1,1) = {"
-ss
-zX
+Ig
+Ci
 ZP
 ux
 ux
@@ -6172,17 +6000,17 @@ BW
 XU
 aT
 Ci
-TZ
+Ig
 "}
 (5,1,1) = {"
-ss
+Ig
 bK
 kI
 KA
 Nk
-ba
+jz
 mp
-JV
+Ec
 YQ
 rx
 gC
@@ -6205,19 +6033,19 @@ jz
 Ec
 CC
 Zy
-TZ
+Ig
 "}
 (6,1,1) = {"
-ss
-uW
+Ig
+mC
 Xb
 iL
-gM
-gM
+bH
+bH
 ua
-gM
-gM
-gM
+bH
+bH
+bH
 ZO
 gC
 zl
@@ -6229,16 +6057,16 @@ zl
 zl
 gC
 ZO
-Zw
+bH
 Fl
-Zw
-Zw
+bH
+bH
 Mc
-Zw
-Zw
-gK
+bH
+bH
+Xb
 mC
-TZ
+Ig
 "}
 (7,1,1) = {"
 lk
