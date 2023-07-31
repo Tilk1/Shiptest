@@ -170,6 +170,9 @@
 	network = "irmg_commnet"
 	},
 /obj/machinery/light/directional/south,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
 /turf/open/floor/circuit/red,
 /area/ship/engineering/communications)
 "bH" = (
@@ -599,6 +602,9 @@
 /obj/machinery/door/window/northleft{
 	dir = 2
 	},
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
 "fy" = (
@@ -755,6 +761,12 @@
 /area/ship/engineering{
 	name = "Propulsor 1"
 	})
+"gN" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/plasteel/telecomms_floor,
+/area/ship/engineering/communications)
 "gQ" = (
 /turf/open/floor/wood,
 /area/ship/bridge)
@@ -865,6 +877,9 @@
 	freq_listening = list(1213,1459,1353)
 	},
 /obj/machinery/light/directional/south,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
 /turf/open/floor/circuit/red,
 /area/ship/engineering/communications)
 "if" = (
@@ -1927,6 +1942,9 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 9
+	},
+/obj/structure/cable{
+	icon_state = "1-2"
 	},
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
@@ -4641,6 +4659,9 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
 "PM" = (
@@ -4690,6 +4711,12 @@
 	},
 /obj/machinery/camera/autoname{
 	dir = 10
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
 	},
 /turf/open/floor/circuit/red,
 /area/ship/engineering/communications)
@@ -5363,6 +5390,9 @@
 "Wf" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
 /turf/open/floor/plasteel/telecomms_floor,
 /area/ship/engineering/communications)
 "Wj" = (
@@ -6525,7 +6555,7 @@ Wf
 Wf
 rJ
 ft
-nD
+gN
 Qm
 Ls
 zl
