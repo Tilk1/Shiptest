@@ -616,22 +616,6 @@
 	},
 /turf/template_noop,
 /area/template_noop)
-"fz" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 8
-	},
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/machinery/navbeacon/wayfinding{
-	location = "andromeda_atmos"
-	},
-/turf/open/floor/plating,
-/area/ship/science/robotics)
 "fR" = (
 /obj/machinery/holopad/emergency/command,
 /obj/structure/cable{
@@ -1326,9 +1310,6 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/obj/machinery/navbeacon/wayfinding{
-	location = "andromeda_atmos"
-	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "lU" = (
@@ -1820,17 +1801,6 @@
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
-"qW" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
-/obj/structure/cable{
-	icon_state = "1-2"
-	},
-/obj/machinery/navbeacon/wayfinding{
-	location = "andromeda_atmos"
-	},
-/turf/open/floor/plasteel/white,
-/area/ship/medical)
 "rc" = (
 /obj/structure/window/plasma/reinforced/plastitanium,
 /obj/machinery/atmospherics/pipe/simple/orange/visible{
@@ -2473,12 +2443,6 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/cargo)
-"xj" = (
-/obj/machinery/navbeacon/wayfinding{
-	location = "andromeda_atmos"
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/bridge)
 "xm" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
@@ -3085,19 +3049,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
-"BX" = (
-/obj/machinery/atmospherics/pipe/simple/cyan/visible{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/machinery/navbeacon/wayfinding{
-	location = "andromeda_atmos"
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/atmospherics)
 "Cf" = (
 /obj/structure/bed/pod,
 /obj/item/bedsheet/medical,
@@ -4163,9 +4114,6 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/light/directional/west,
-/obj/machinery/atmospherics/pipe/simple/orange/hidden{
-	dir = 4
-	},
 /turf/open/floor/plating,
 /area/ship/engineering/engine)
 "Lo" = (
@@ -5678,9 +5626,6 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/crew/cryo)
 "Yn" = (
-/obj/machinery/navbeacon/wayfinding{
-	location = "andromeda_atmos"
-	},
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -6264,7 +6209,7 @@ OM
 rc
 xH
 wA
-BX
+ya
 nF
 Sr
 iD
@@ -6282,7 +6227,7 @@ wv
 nJ
 iO
 It
-fz
+FP
 iO
 iu
 iO
@@ -6837,7 +6782,7 @@ Yj
 cu
 HD
 mc
-qW
+Dw
 Bd
 Dw
 zp
@@ -7391,7 +7336,7 @@ zl
 yN
 dn
 Ff
-xj
+Ff
 zU
 EL
 zl
