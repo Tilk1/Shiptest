@@ -1236,13 +1236,6 @@
 /obj/machinery/firealarm/directional/north,
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
-"lk" = (
-/obj/machinery/atmospherics/pipe/simple/dark/visible{
-	dir = 8
-	},
-/obj/machinery/porta_turret/ship/ballistic,
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/bridge)
 "ln" = (
 /obj/structure/cable{
 	icon_state = "0-1"
@@ -2240,9 +2233,6 @@
 /obj/machinery/door/poddoor{
 	id = "andromeda_cargo_blast"
 	},
-/obj/structure/cable{
-	icon_state = "0-1"
-	},
 /turf/open/floor/plasteel/tech,
 /area/ship/cargo)
 "vi" = (
@@ -2932,12 +2922,6 @@
 /obj/machinery/vending/toyliberationstation,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
-"Aw" = (
-/obj/machinery/atmospherics/pipe/simple/dark/visible{
-	dir = 1
-	},
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/ship/engineering/atmospherics)
 "AB" = (
 /obj/machinery/air_sensor/atmos/oxygen_tank,
 /obj/machinery/light/directional/north,
@@ -3151,9 +3135,6 @@
 	},
 /obj/machinery/door/poddoor{
 	id = "andromeda_cargo_blast"
-	},
-/obj/structure/cable{
-	icon_state = "0-1"
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/cargo)
@@ -3537,12 +3518,6 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /turf/open/floor/plating,
 /area/ship/science/robotics)
-"FX" = (
-/obj/machinery/atmospherics/pipe/simple/orange/visible{
-	dir = 6
-	},
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/ship/engineering/atmospherics)
 "Gb" = (
 /obj/item/storage/toolbox/infiltrator,
 /obj/item/blackbox,
@@ -4292,12 +4267,6 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
 /obj/machinery/door/airlock/engineering{
@@ -5055,10 +5024,6 @@
 	dir = 1
 	},
 /turf/open/floor/plasteel/tech,
-/area/ship/engineering/atmospherics)
-"Ta" = (
-/obj/machinery/atmospherics/pipe/simple/orange/visible,
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/engineering/atmospherics)
 "Tb" = (
 /obj/structure/chair/office/dark{
@@ -5833,9 +5798,6 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
-/obj/machinery/atmospherics/pipe/simple/cyan/hidden{
-	dir = 4
-	},
 /obj/structure/sign/warning/electricshock{
 	pixel_x = 32
 	},
@@ -6097,11 +6059,11 @@ mC
 Ig
 "}
 (7,1,1) = {"
-lk
+ZO
 GU
-FX
-Ta
-Ta
+Sr
+Sr
+Sr
 RK
 Ah
 sX
@@ -6370,7 +6332,7 @@ dV
 nd
 nG
 nI
-Aw
+Sr
 ox
 LT
 de
