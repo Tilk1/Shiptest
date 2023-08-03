@@ -899,14 +899,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
-"ir" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/machinery/navbeacon/wayfinding{
-	location = "andromeda_atmos"
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
 "it" = (
 /turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/engineering/communications)
@@ -6250,7 +6242,7 @@ vP
 gL
 gc
 Tc
-ir
+tS
 HA
 tS
 nl
