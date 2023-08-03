@@ -2898,7 +2898,6 @@
 /area/ship/engineering/atmospherics)
 "Am" = (
 /obj/structure/table/reinforced,
-/obj/structure/table/reinforced,
 /obj/machinery/button/door{
 	pixel_x = -7;
 	dir = 8;
@@ -3383,7 +3382,6 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "Es" = (
-/obj/structure/table/reinforced,
 /obj/structure/table/reinforced,
 /obj/item/radio/intercom/directional/south,
 /obj/item/radio/intercom/wideband/table,
