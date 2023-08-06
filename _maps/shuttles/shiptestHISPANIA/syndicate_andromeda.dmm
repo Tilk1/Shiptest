@@ -958,6 +958,19 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
+"iN" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/obj/structure/closet/firecloset/full{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering)
 "iO" = (
 /turf/open/floor/plasteel/dark,
 /area/ship/science/robotics)
@@ -1686,12 +1699,6 @@
 /obj/machinery/suit_storage_unit/syndicate,
 /turf/open/floor/wood,
 /area/ship/bridge)
-"pV" = (
-/obj/machinery/atmospherics/components/binary/pump{
-	dir = 4
-	},
-/turf/open/floor/engine,
-/area/ship/engineering/engine)
 "pY" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -2000,6 +2007,12 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
+"th" = (
+/obj/machinery/atmospherics/components/binary/pump{
+	dir = 4
+	},
+/turf/open/floor/engine,
+/area/ship/engineering/engine)
 "tS" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/structure/catwalk/over/plated_catwalk/dark,
@@ -3987,19 +4000,6 @@
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
-"KO" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
-	dir = 1
-	},
-/obj/structure/closet/firecloset/full{
-	anchored = 1;
-	can_be_unanchored = 1
-	},
-/obj/effect/turf_decal/industrial/warning{
-	dir = 1
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering)
 "KQ" = (
 /obj/structure/tank_dispenser,
 /turf/open/floor/plasteel/mono/dark,
@@ -5068,6 +5068,14 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
+"Un" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/structure/catwalk/over/plated_catwalk/dark,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/turf/open/floor/plating,
+/area/ship/engineering/engine)
 "Ur" = (
 /obj/structure/table/reinforced,
 /obj/machinery/photocopier/faxmachine,
@@ -5213,14 +5221,6 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/engineering/atmospherics)
-"VH" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
-/obj/structure/catwalk/over/plated_catwalk/dark,
-/obj/structure/cable{
-	icon_state = "4-8"
-	},
-/turf/open/floor/plating,
-/area/ship/engineering/engine)
 "VV" = (
 /obj/structure/table/reinforced,
 /obj/item/flashlight/lantern{
@@ -5503,9 +5503,8 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "XV" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/incinerator_output{
-	dir = 4;
-	id = "incinerator_out"
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
+	dir = 4
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
@@ -6195,7 +6194,7 @@ gc
 Tc
 tS
 HA
-VH
+Un
 nl
 Cx
 WG
@@ -6258,7 +6257,7 @@ Ns
 Vw
 de
 lh
-pV
+th
 gf
 wW
 lN
@@ -6324,7 +6323,7 @@ Uk
 ht
 de
 qJ
-pV
+th
 Kp
 wW
 lN
@@ -6450,7 +6449,7 @@ oN
 wz
 bH
 Vn
-KO
+iN
 WR
 WR
 WR
