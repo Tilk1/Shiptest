@@ -488,7 +488,13 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{
 	dir = 4
 	},
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/machinery/door/poddoor{
+	id = "andromeda_windows";
+	name = "Window Shield";
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "eu" = (
 /obj/structure/table/wood,
@@ -960,6 +966,15 @@
 	can_be_unanchored = 1
 	},
 /turf/open/floor/plasteel/tech,
+/area/ship/engineering)
+"iN" = (
+/obj/structure/window/plasma/reinforced/plastitanium,
+/obj/machinery/door/poddoor{
+	id = "andromeda_windows";
+	name = "Window Shield";
+	dir = 4
+	},
+/turf/open/floor/plasteel/mono/dark,
 /area/ship/engineering)
 "iO" = (
 /turf/open/floor/plasteel/dark,
@@ -1789,6 +1804,12 @@
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
+"rc" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ship/engineering/engine)
 "rj" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible{
@@ -2347,12 +2368,6 @@
 /obj/machinery/portable_atmospherics/pump,
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering/atmospherics)
-"wA" = (
-/obj/machinery/atmospherics/pipe/simple/dark/visible{
-	dir = 9
-	},
-/turf/open/floor/engine,
-/area/ship/engineering/engine)
 "wB" = (
 /obj/machinery/telecomms/receiver/preset_right{
 	freq_listening = list(1347,1359,1213,1353);
@@ -2466,12 +2481,6 @@
 	dir = 4
 	},
 /turf/open/floor/engine,
-/area/ship/engineering/engine)
-"xH" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 5
-	},
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/engineering/engine)
 "xI" = (
 /obj/structure/table/optable,
@@ -3770,6 +3779,12 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
+"Jo" = (
+/obj/machinery/atmospherics/pipe/simple/dark/visible{
+	dir = 9
+	},
+/turf/open/floor/engine,
+/area/ship/engineering/engine)
 "Jr" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -6011,7 +6026,7 @@ pG
 de
 de
 bH
-bH
+iN
 bH
 wv
 hj
@@ -6141,7 +6156,7 @@ de
 QO
 xG
 hx
-xH
+rc
 uM
 kF
 ck
@@ -6336,7 +6351,7 @@ Uk
 ht
 de
 qJ
-wA
+Jo
 Kp
 wW
 lN
