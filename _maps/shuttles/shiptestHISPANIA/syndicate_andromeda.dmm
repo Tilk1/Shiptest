@@ -1408,10 +1408,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
-"mZ" = (
-/obj/machinery/computer/security,
-/turf/open/floor/wood,
-/area/ship/bridge)
 "nd" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
@@ -5110,6 +5106,9 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
+"Un" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ship/cargo)
 "Ur" = (
 /obj/structure/table/reinforced,
 /obj/machinery/photocopier/faxmachine,
@@ -5255,9 +5254,6 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/engineering/atmospherics)
-"VH" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/ship/cargo)
 "VV" = (
 /obj/structure/table/reinforced,
 /obj/item/flashlight/lantern{
@@ -6856,14 +6852,14 @@ EL
 Xx
 xB
 Tx
-VH
+Un
 Us
 OG
 OG
 gn
 Xh
-VH
-VH
+Un
+Un
 zl
 zl
 zl
@@ -6889,7 +6885,7 @@ EL
 QA
 MD
 Yo
-VH
+Un
 TU
 OL
 OL
@@ -6988,7 +6984,7 @@ EL
 EL
 EL
 EL
-VH
+Un
 LO
 CB
 XO
@@ -7021,7 +7017,7 @@ EL
 EL
 Uc
 EL
-VH
+Un
 UJ
 lg
 Uf
@@ -7054,12 +7050,12 @@ EL
 lX
 ML
 Gb
-VH
+Un
 ZH
 lg
 MW
-VH
-VH
+Un
+Un
 xv
 ny
 zl
@@ -7087,11 +7083,11 @@ EL
 eh
 by
 Rf
-VH
+Un
 ul
 JL
 hZ
-VH
+Un
 zl
 zl
 zl
@@ -7120,11 +7116,11 @@ EL
 LB
 Da
 cl
-VH
-VH
-VH
-VH
-VH
+Un
+Un
+Un
+Un
+Un
 zl
 zl
 zl
@@ -7285,7 +7281,7 @@ Xc
 EL
 zl
 yN
-mZ
+gQ
 Tb
 ky
 gQ
