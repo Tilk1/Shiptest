@@ -5551,7 +5551,8 @@
 /area/ship/engineering)
 "XV" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/atmos/incinerator_output{
-	dir = 4
+	dir = 4;
+	id = "incinerator_out"
 	},
 /turf/open/floor/engine,
 /area/ship/engineering/engine)
