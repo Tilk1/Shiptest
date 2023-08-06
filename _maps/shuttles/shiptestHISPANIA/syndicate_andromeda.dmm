@@ -3540,6 +3540,19 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
+"GU" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/obj/structure/closet/firecloset/full{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering)
 "GW" = (
 /obj/structure/window/plasma/reinforced/spawner/north,
 /obj/machinery/telecomms/bus/preset_three{
@@ -3656,6 +3669,9 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
+"Ig" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ship/cargo)
 "Ij" = (
 /obj/structure/window/plasma/reinforced/spawner/north,
 /obj/machinery/telecomms/processor/preset_three{
@@ -5106,9 +5122,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
-"Un" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/ship/cargo)
 "Ur" = (
 /obj/structure/table/reinforced,
 /obj/machinery/photocopier/faxmachine,
@@ -6480,7 +6493,7 @@ oN
 wz
 bH
 Vn
-GN
+GU
 WR
 WR
 WR
@@ -6852,14 +6865,14 @@ EL
 Xx
 xB
 Tx
-Un
+Ig
 Us
 OG
 OG
 gn
 Xh
-Un
-Un
+Ig
+Ig
 zl
 zl
 zl
@@ -6885,7 +6898,7 @@ EL
 QA
 MD
 Yo
-Un
+Ig
 TU
 OL
 OL
@@ -6984,7 +6997,7 @@ EL
 EL
 EL
 EL
-Un
+Ig
 LO
 CB
 XO
@@ -7017,7 +7030,7 @@ EL
 EL
 Uc
 EL
-Un
+Ig
 UJ
 lg
 Uf
@@ -7050,12 +7063,12 @@ EL
 lX
 ML
 Gb
-Un
+Ig
 ZH
 lg
 MW
-Un
-Un
+Ig
+Ig
 xv
 ny
 zl
@@ -7083,11 +7096,11 @@ EL
 eh
 by
 Rf
-Un
+Ig
 ul
 JL
 hZ
-Un
+Ig
 zl
 zl
 zl
@@ -7116,11 +7129,11 @@ EL
 LB
 Da
 cl
-Un
-Un
-Un
-Un
-Un
+Ig
+Ig
+Ig
+Ig
+Ig
 zl
 zl
 zl
