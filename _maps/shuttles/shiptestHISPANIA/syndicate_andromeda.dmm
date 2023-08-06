@@ -295,6 +295,9 @@
 /obj/effect/turf_decal/industrial/warning{
 	dir = 10
 	},
+/obj/machinery/light/directional/west,
+/obj/item/storage/toolbox/ammo/shotgun,
+/obj/item/storage/toolbox/ammo/shotgun,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "cG" = (
@@ -958,12 +961,6 @@
 	},
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering)
-"iN" = (
-/obj/machinery/atmospherics/pipe/simple/dark/visible{
-	dir = 9
-	},
-/turf/open/floor/engine,
-/area/ship/engineering/engine)
 "iO" = (
 /turf/open/floor/plasteel/dark,
 /area/ship/science/robotics)
@@ -2351,10 +2348,10 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/engineering/atmospherics)
 "wA" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
-	dir = 5
+/obj/machinery/atmospherics/pipe/simple/dark/visible{
+	dir = 9
 	},
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/turf/open/floor/engine,
 /area/ship/engineering/engine)
 "wB" = (
 /obj/machinery/telecomms/receiver/preset_right{
@@ -2469,6 +2466,12 @@
 	dir = 4
 	},
 /turf/open/floor/engine,
+/area/ship/engineering/engine)
+"xH" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer2{
+	dir = 5
+	},
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/engineering/engine)
 "xI" = (
 /obj/structure/table/optable,
@@ -4199,6 +4202,9 @@
 	dir = 9
 	},
 /obj/structure/guncase,
+/obj/machinery/light/directional/west,
+/obj/item/gun/ballistic/shotgun/winchester/lethal,
+/obj/item/gun/ballistic/shotgun/winchester/lethal,
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/security/armory)
 "Mx" = (
@@ -6135,7 +6141,7 @@ de
 QO
 xG
 hx
-wA
+xH
 uM
 kF
 ck
@@ -6330,7 +6336,7 @@ Uk
 ht
 de
 qJ
-iN
+wA
 Kp
 wW
 lN
