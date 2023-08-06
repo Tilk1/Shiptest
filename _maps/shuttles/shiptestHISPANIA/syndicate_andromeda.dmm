@@ -5255,6 +5255,9 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/engineering/atmospherics)
+"VH" = (
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ship/cargo)
 "VV" = (
 /obj/structure/table/reinforced,
 /obj/item/flashlight/lantern{
@@ -5638,9 +5641,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/medical)
-"YF" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/ship/cargo)
 "YI" = (
 /obj/machinery/camera/autoname{
 	dir = 5
@@ -5968,7 +5968,7 @@ zl
 zl
 zl
 gC
-ZO
+uf
 bH
 Fl
 bH
@@ -6011,7 +6011,7 @@ iO
 wv
 wv
 wv
-ZO
+uf
 "}
 (8,1,1) = {"
 zl
@@ -6856,14 +6856,14 @@ EL
 Xx
 xB
 Tx
-YF
+VH
 Us
 OG
 OG
 gn
 Xh
-YF
-YF
+VH
+VH
 zl
 zl
 zl
@@ -6889,7 +6889,7 @@ EL
 QA
 MD
 Yo
-YF
+VH
 TU
 OL
 OL
@@ -6988,7 +6988,7 @@ EL
 EL
 EL
 EL
-YF
+VH
 LO
 CB
 XO
@@ -7021,7 +7021,7 @@ EL
 EL
 Uc
 EL
-YF
+VH
 UJ
 lg
 Uf
@@ -7054,12 +7054,12 @@ EL
 lX
 ML
 Gb
-YF
+VH
 ZH
 lg
 MW
-YF
-YF
+VH
+VH
 xv
 ny
 zl
@@ -7087,11 +7087,11 @@ EL
 eh
 by
 Rf
-YF
+VH
 ul
 JL
 hZ
-YF
+VH
 zl
 zl
 zl
@@ -7120,11 +7120,11 @@ EL
 LB
 Da
 cl
-YF
-YF
-YF
-YF
-YF
+VH
+VH
+VH
+VH
+VH
 zl
 zl
 zl
@@ -7242,7 +7242,7 @@ zl
 zl
 zl
 zl
-ZO
+uf
 EL
 EL
 kQ
