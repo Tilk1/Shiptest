@@ -216,7 +216,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 4
 	},
-/turf/closed/wall/mineral/plastitanium,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/bridge)
 "co" = (
 /obj/machinery/light/directional/west,
@@ -481,7 +481,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/visible/layer4{
 	dir = 4
 	},
-/turf/closed/wall/mineral/plastitanium,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/engineering)
 "eu" = (
 /obj/structure/table/wood,
@@ -1075,9 +1075,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
-"jP" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/security/armory)
 "jY" = (
 /obj/structure/table/wood,
 /obj/item/instrument/piano_synth,
@@ -3547,9 +3544,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
-"GU" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/engineering/atmospherics)
 "GW" = (
 /obj/structure/window/plasma/reinforced/spawner/north,
 /obj/machinery/telecomms/bus/preset_three{
@@ -3666,9 +3660,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
-"Ig" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/engineering)
 "Ij" = (
 /obj/structure/window/plasma/reinforced/spawner/north,
 /obj/machinery/telecomms/processor/preset_three{
@@ -4060,9 +4051,6 @@
 /obj/machinery/firealarm/directional/east,
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
-"KO" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/bridge)
 "KQ" = (
 /obj/structure/tank_dispenser,
 /turf/open/floor/plasteel/mono/dark,
@@ -4151,7 +4139,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
-/turf/closed/wall/mineral/plastitanium,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/bridge)
 "LG" = (
 /obj/machinery/autolathe/hacked,
@@ -4631,7 +4619,7 @@
 /area/ship/engineering/communications)
 "Qq" = (
 /obj/structure/sign/poster/contraband/bulldog,
-/turf/closed/wall/mineral/plastitanium,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/bridge)
 "QA" = (
 /obj/machinery/vending/cigarette,
@@ -4701,7 +4689,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
-/turf/closed/wall/mineral/plastitanium,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/security/armory)
 "Rf" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
@@ -5122,9 +5110,6 @@
 	},
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
-"Un" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/medical)
 "Ur" = (
 /obj/structure/table/reinforced,
 /obj/machinery/photocopier/faxmachine,
@@ -5270,9 +5255,6 @@
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/engineering/atmospherics)
-"VH" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/science/robotics)
 "VV" = (
 /obj/structure/table/reinforced,
 /obj/item/flashlight/lantern{
@@ -5657,8 +5639,8 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/medical)
 "YF" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/ship/engineering/engine)
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
+/area/ship/cargo)
 "YI" = (
 /obj/machinery/camera/autoname{
 	dir = 5
@@ -5834,7 +5816,7 @@ Fb
 at
 "}
 (2,1,1) = {"
-Ig
+bH
 bH
 BR
 BR
@@ -5864,10 +5846,10 @@ Wo
 Wo
 Wo
 bH
-Ig
+bH
 "}
 (3,1,1) = {"
-Ig
+bH
 Ci
 dW
 dW
@@ -5897,10 +5879,10 @@ dW
 dW
 dW
 Ci
-Ig
+bH
 "}
 (4,1,1) = {"
-Ig
+bH
 Ci
 ZP
 ux
@@ -5930,10 +5912,10 @@ BW
 XU
 aT
 Ci
-Ig
+bH
 "}
 (5,1,1) = {"
-Ig
+bH
 bK
 kI
 KA
@@ -5963,10 +5945,10 @@ jz
 Ec
 CC
 Zy
-Ig
+bH
 "}
 (6,1,1) = {"
-Ig
+bH
 mC
 Xb
 iL
@@ -5996,11 +5978,11 @@ bH
 bH
 Xb
 mC
-Ig
+bH
 "}
 (7,1,1) = {"
-ZO
-GU
+uf
+Sr
 Sr
 Sr
 Sr
@@ -6009,7 +5991,7 @@ Ah
 sX
 sY
 Sr
-Ig
+bH
 dX
 Kg
 zl
@@ -6019,7 +6001,7 @@ zl
 zl
 Kg
 gC
-Ig
+bH
 wv
 wv
 wv
@@ -6028,12 +6010,12 @@ FP
 iO
 wv
 wv
-VH
+wv
 ZO
 "}
 (8,1,1) = {"
 zl
-GU
+Sr
 mM
 XX
 vB
@@ -6042,17 +6024,17 @@ Jr
 Ue
 pr
 Sr
-Ig
+bH
 ep
-Ig
-YF
+bH
+de
 de
 pG
 de
-YF
-Ig
-Ig
-Ig
+de
+bH
+bH
+bH
 wv
 hj
 iO
@@ -6061,12 +6043,12 @@ FP
 iO
 OJ
 iO
-VH
+wv
 zl
 "}
 (9,1,1) = {"
 zl
-GU
+Sr
 gS
 Ot
 VE
@@ -6078,11 +6060,11 @@ Sr
 UO
 eP
 Sa
-YF
+de
 XV
 vK
 Lg
-YF
+de
 xQ
 kF
 st
@@ -6099,7 +6081,7 @@ zl
 "}
 (10,1,1) = {"
 zl
-GU
+Sr
 OM
 OM
 Zf
@@ -6111,11 +6093,11 @@ Sr
 Vb
 IK
 aH
-YF
+de
 Sn
 JK
 xp
-YF
+de
 zI
 kF
 Rr
@@ -6132,7 +6114,7 @@ zl
 "}
 (11,1,1) = {"
 zl
-GU
+Sr
 rM
 FC
 vB
@@ -6144,11 +6126,11 @@ Sr
 hS
 eP
 aH
-YF
+de
 hQ
 pg
 cv
-YF
+de
 yX
 kF
 KQ
@@ -6165,7 +6147,7 @@ zl
 "}
 (12,1,1) = {"
 zl
-GU
+Sr
 AB
 KL
 Jo
@@ -6177,11 +6159,11 @@ Sr
 wY
 eP
 Sa
-YF
+de
 QO
 xG
 hx
-YF
+de
 uM
 kF
 ck
@@ -6193,12 +6175,12 @@ UT
 AX
 iu
 Nz
-VH
+wv
 zl
 "}
 (13,1,1) = {"
 Kg
-GU
+Sr
 OM
 OM
 rc
@@ -6226,12 +6208,12 @@ FP
 iO
 iu
 iO
-VH
+wv
 Hl
 "}
 (14,1,1) = {"
 zl
-GU
+Sr
 Ka
 WI
 vB
@@ -6264,7 +6246,7 @@ zl
 "}
 (15,1,1) = {"
 zl
-GU
+Sr
 dz
 gk
 Yc
@@ -6297,7 +6279,7 @@ zl
 "}
 (16,1,1) = {"
 zl
-GU
+Sr
 OM
 OM
 Zf
@@ -6330,7 +6312,7 @@ zl
 "}
 (17,1,1) = {"
 zl
-GU
+Sr
 AS
 ZQ
 VE
@@ -6358,12 +6340,12 @@ MT
 vy
 iO
 bu
-VH
+wv
 zl
 "}
 (18,1,1) = {"
 zl
-GU
+Sr
 aI
 lp
 VE
@@ -6391,12 +6373,12 @@ it
 it
 it
 it
-Ls
+it
 zl
 "}
 (19,1,1) = {"
 zl
-GU
+Sr
 Sr
 Sr
 jD
@@ -6424,12 +6406,12 @@ Aa
 GW
 wB
 ia
-Ls
+it
 zl
 "}
 (20,1,1) = {"
 zl
-GU
+Sr
 Fe
 Fe
 jo
@@ -6457,12 +6439,12 @@ rJ
 ft
 gN
 Qm
-Ls
+it
 zl
 "}
 (21,1,1) = {"
 zl
-GU
+Sr
 yz
 Fe
 jo
@@ -6490,12 +6472,12 @@ wh
 Ij
 Ju
 bG
-Ls
+it
 zl
 "}
 (22,1,1) = {"
 zl
-GU
+Sr
 Fe
 Fe
 oN
@@ -6523,15 +6505,15 @@ it
 it
 it
 Ls
-ZO
+uf
 zl
 "}
 (23,1,1) = {"
 zl
-ZO
-GU
-GU
-GU
+uf
+Sr
+Sr
+Sr
 Sr
 bH
 iZ
@@ -6719,7 +6701,7 @@ uH
 YJ
 NR
 dZ
-Un
+Vk
 zl
 zl
 zl
@@ -6752,7 +6734,7 @@ Pn
 oT
 oT
 yn
-Un
+Vk
 zl
 zl
 zl
@@ -6785,7 +6767,7 @@ Op
 oT
 oT
 wQ
-Un
+Vk
 zl
 zl
 zl
@@ -6818,7 +6800,7 @@ rl
 sI
 we
 kY
-Un
+Vk
 zl
 zl
 zl
@@ -6828,16 +6810,16 @@ zl
 zl
 zl
 zl
-ZO
+uf
 po
 po
-jP
-jP
-jP
-jP
+po
+po
+po
+po
 pv
-KO
-KO
+EL
+EL
 Nf
 MD
 Id
@@ -6848,9 +6830,9 @@ Vk
 Vk
 Vk
 Vk
-Un
-Un
-Un
+Vk
+Vk
+Vk
 uf
 zl
 zl
@@ -6862,26 +6844,26 @@ zl
 zl
 zl
 zl
-jP
-jP
+po
+po
 Mm
 Za
 cE
-jP
+po
 Cn
 DB
-KO
+EL
 Xx
 xB
 Tx
-xv
+YF
 Us
 OG
 OG
 gn
 Xh
-xv
-xv
+YF
+YF
 zl
 zl
 zl
@@ -6896,18 +6878,18 @@ zl
 zl
 zl
 zl
-jP
+po
 hd
 lP
 qn
-jP
+po
 BE
 bz
-KO
+EL
 QA
 MD
 Yo
-xv
+YF
 TU
 OL
 OL
@@ -6929,14 +6911,14 @@ zl
 zl
 zl
 zl
-jP
+po
 Zx
 iG
 Gm
-jP
+po
 CP
 Uu
-KO
+EL
 RU
 MD
 Yo
@@ -6962,11 +6944,11 @@ zl
 zl
 zl
 zl
-jP
-jP
+po
+po
 AE
 Rc
-jP
+po
 RM
 wq
 Qq
@@ -6995,18 +6977,18 @@ zl
 zl
 zl
 zl
-jP
+po
 Ch
 yt
 KU
 zx
 su
 IF
-KO
-KO
-KO
-KO
-xv
+EL
+EL
+EL
+EL
+YF
 LO
 CB
 XO
@@ -7028,18 +7010,18 @@ zl
 zl
 zl
 zl
-jP
+po
 TL
 QX
 Ru
-jP
+po
 NP
 DB
-KO
-KO
+EL
+EL
 Uc
-KO
-xv
+EL
+YF
 UJ
 lg
 Uf
@@ -7061,23 +7043,23 @@ zl
 zl
 zl
 zl
-ZO
-jP
-jP
-jP
-jP
+uf
+po
+po
+po
+po
 Ep
 Cq
-KO
+EL
 lX
 ML
 Gb
-xv
+YF
 ZH
 lg
 MW
-xv
-xv
+YF
+YF
 xv
 ny
 zl
@@ -7095,21 +7077,21 @@ zl
 zl
 zl
 zl
-KO
+EL
 Ur
 jO
 En
 SF
 Yt
-KO
+EL
 eh
 by
 Rf
-xv
+YF
 ul
 JL
 hZ
-xv
+YF
 zl
 zl
 zl
@@ -7128,21 +7110,21 @@ zl
 zl
 zl
 zl
-KO
+EL
 mB
 MZ
 OS
 SK
 aF
-KO
+EL
 LB
 Da
 cl
-xv
-xv
-xv
-xv
-xv
+YF
+YF
+YF
+YF
+YF
 zl
 zl
 zl
@@ -7161,7 +7143,7 @@ zl
 zl
 zl
 zl
-KO
+EL
 pZ
 SL
 Io
@@ -7175,7 +7157,7 @@ Yg
 oi
 if
 cA
-KO
+EL
 zl
 zl
 zl
@@ -7194,21 +7176,21 @@ zl
 zl
 zl
 zl
-KO
+EL
 Yb
 Wu
 cy
 qe
 zL
 eX
-KO
-KO
-KO
+EL
+EL
+EL
 pM
 Kx
 pK
 ru
-KO
+EL
 zl
 zl
 zl
@@ -7227,16 +7209,16 @@ zl
 zl
 zl
 zl
-KO
+EL
 uJ
 UU
 oS
 IT
 TN
 Es
-KO
+EL
 zl
-KO
+EL
 mr
 yb
 Fd
@@ -7261,13 +7243,13 @@ zl
 zl
 zl
 ZO
-KO
-KO
+EL
+EL
 kQ
 vF
 ME
 Am
-KO
+EL
 zl
 EL
 Wk
@@ -7300,7 +7282,7 @@ EQ
 UA
 Ty
 Xc
-KO
+EL
 zl
 yN
 mZ
