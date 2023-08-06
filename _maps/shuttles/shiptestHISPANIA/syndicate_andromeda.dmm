@@ -2089,8 +2089,7 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/crew/cryo)
 "ut" = (
-/obj/machinery/mineral/ore_redemption,
-/turf/open/floor/mineral/plastitanium,
+/turf/closed/wall/r_wall/syndicate/nodiagonal,
 /area/ship/cargo)
 "ux" = (
 /obj/structure/cable{
@@ -3540,19 +3539,6 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
-"GU" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
-	dir = 1
-	},
-/obj/structure/closet/firecloset/full{
-	anchored = 1;
-	can_be_unanchored = 1
-	},
-/obj/effect/turf_decal/industrial/warning{
-	dir = 1
-	},
-/turf/open/floor/plasteel/tech,
-/area/ship/engineering)
 "GW" = (
 /obj/structure/window/plasma/reinforced/spawner/north,
 /obj/machinery/telecomms/bus/preset_three{
@@ -3670,8 +3656,18 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/ship/hallway/central)
 "Ig" = (
-/turf/closed/wall/r_wall/syndicate/nodiagonal,
-/area/ship/cargo)
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/obj/structure/closet/firecloset/full{
+	anchored = 1;
+	can_be_unanchored = 1
+	},
+/obj/effect/turf_decal/industrial/warning{
+	dir = 1
+	},
+/turf/open/floor/plasteel/tech,
+/area/ship/engineering)
 "Ij" = (
 /obj/structure/window/plasma/reinforced/spawner/north,
 /obj/machinery/telecomms/processor/preset_three{
@@ -3769,6 +3765,7 @@
 /obj/effect/turf_decal/corner/opaque/syndiered{
 	dir = 5
 	},
+/obj/machinery/mineral/ore_redemption,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/cargo)
 "IT" = (
@@ -6493,7 +6490,7 @@ oN
 wz
 bH
 Vn
-GU
+Ig
 WR
 WR
 WR
@@ -6865,14 +6862,14 @@ EL
 Xx
 xB
 Tx
-Ig
+ut
 Us
 OG
 OG
 gn
 Xh
-Ig
-Ig
+ut
+ut
 zl
 zl
 zl
@@ -6898,7 +6895,7 @@ EL
 QA
 MD
 Yo
-Ig
+ut
 TU
 OL
 OL
@@ -6997,7 +6994,7 @@ EL
 EL
 EL
 EL
-Ig
+ut
 LO
 CB
 XO
@@ -7030,7 +7027,7 @@ EL
 EL
 Uc
 EL
-Ig
+ut
 UJ
 lg
 Uf
@@ -7063,12 +7060,12 @@ EL
 lX
 ML
 Gb
-Ig
+ut
 ZH
 lg
 MW
-Ig
-Ig
+ut
+ut
 xv
 ny
 zl
@@ -7096,11 +7093,11 @@ EL
 eh
 by
 Rf
-Ig
+ut
 ul
 JL
 hZ
-Ig
+ut
 zl
 zl
 zl
@@ -7129,11 +7126,11 @@ EL
 LB
 Da
 cl
-Ig
-Ig
-Ig
-Ig
-Ig
+ut
+ut
+ut
+ut
+ut
 zl
 zl
 zl
