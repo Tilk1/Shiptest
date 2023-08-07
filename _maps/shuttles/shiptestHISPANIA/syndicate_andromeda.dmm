@@ -3424,7 +3424,6 @@
 /turf/open/floor/plating,
 /area/ship/science/robotics)
 "Gb" = (
-/obj/item/storage/toolbox/infiltrator,
 /obj/item/blackbox,
 /obj/structure/closet/crate,
 /obj/machinery/airalarm/directional/south,
@@ -3741,7 +3740,6 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/cargo)
 "Ji" = (
-/obj/machinery/suit_storage_unit/syndicate,
 /obj/effect/turf_decal/industrial/warning{
 	dir = 8
 	},
